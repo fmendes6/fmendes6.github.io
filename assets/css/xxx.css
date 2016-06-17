@@ -173,7 +173,7 @@ ul.icons a.s_medium{
 	}
 
 .frame{
-	border: 16px solid #3c415f;
+	border: 16px solid #606060;
 	padding: 2em;
 }
 header .divider{
@@ -181,7 +181,7 @@ header .divider{
 	height: 8px;
 	display: block;
 	margin: 0 auto 1em;
-	background-color: #3c415f;
+	background-color: #606060;
 }
 header p{
 	opacity: 0.5;
@@ -200,7 +200,7 @@ header p{
 		height: 8em;
 	}
 	.frame{
-		border: 10px solid #3c415f;
+		border: 10px solid #606060;
 		padding: 1em;
 	}
 	h1 {
