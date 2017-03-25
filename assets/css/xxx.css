@@ -141,9 +141,9 @@ ul.icons a.s_medium{
 		max-width: 100%;
 		min-width: 27em;
 		padding: 2em ;
-		background: #f7f7ef;
+		background: #FFFFFF;
 		cursor: default;
-		box-shadow: 0px 3px 5px #444;
+
 		opacity: 0.95;
 		text-align: center;
 		-moz-transform-origin: 50% 50%;
@@ -173,7 +173,7 @@ ul.icons a.s_medium{
 	}
 
 .frame{
-	border: 16px solid #606060;
+	border: 16px solid #f7f7ef;
 	padding: 2em;
 }
 header .divider{
@@ -181,7 +181,7 @@ header .divider{
 	height: 8px;
 	display: block;
 	margin: 0 auto 1em;
-	background-color: #606060;
+	background-color: #f7f7ef;
 }
 header p{
 	opacity: 0.5;
@@ -200,7 +200,7 @@ header p{
 		height: 8em;
 	}
 	.frame{
-		border: 10px solid #606060;
+		border: 10px solid #f7f7ef;
 		padding: 1em;
 	}
 	h1 {
