@@ -1,0 +1,24 @@
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Filipe Mendes</title>
+    <link>https://fmendes6.com/</link>
+    <description>Recent content on Filipe Mendes</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <copyright>MIT</copyright>
+    <lastBuildDate>Mon, 03 Aug 2020 00:00:00 +0100</lastBuildDate>
+    
+        <atom:link href="https://fmendes6.com/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Posts</title>
+      <link>https://fmendes6.com/posts/</link>
+      <pubDate>Mon, 03 Aug 2020 00:00:00 +0100</pubDate>
+      
+      <guid>https://fmendes6.com/posts/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>

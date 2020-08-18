@@ -1,0 +1,507 @@
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Posts on Filipe Mendes</title>
+    <link>https://fmendes6.com/posts/</link>
+    <description>Recent content in Posts on Filipe Mendes</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <copyright>MIT</copyright>
+    <lastBuildDate>Mon, 03 Aug 2020 00:00:00 +0100</lastBuildDate>
+    
+        <atom:link href="https://fmendes6.com/posts/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Futuro até quando?</title>
+      <link>https://fmendes6.com/posts/20-08-03-android/</link>
+      <pubDate>Mon, 03 Aug 2020 00:00:00 +0100</pubDate>
+      
+      <guid>https://fmendes6.com/posts/20-08-03-android/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Verificação com transparência</title>
+      <link>https://fmendes6.com/posts/20-07-06-factos/</link>
+      <pubDate>Mon, 06 Jul 2020 00:00:00 +0100</pubDate>
+      
+      <guid>https://fmendes6.com/posts/20-07-06-factos/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Oferta maior que a procura</title>
+      <link>https://fmendes6.com/posts/20-06-01-esquemas/</link>
+      <pubDate>Mon, 01 Jun 2020 00:00:00 +0100</pubDate>
+      
+      <guid>https://fmendes6.com/posts/20-06-01-esquemas/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Adaptação vs Inovação</title>
+      <link>https://fmendes6.com/posts/20-05-04-apps/</link>
+      <pubDate>Mon, 04 May 2020 00:00:00 +0100</pubDate>
+      
+      <guid>https://fmendes6.com/posts/20-05-04-apps/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Documentation: Chapter</title>
+      <link>https://fmendes6.com/posts/20-04-20_documentation_chapter/</link>
+      <pubDate>Mon, 20 Apr 2020 00:00:00 +0100</pubDate>
+      
+      <guid>https://fmendes6.com/posts/20-04-20_documentation_chapter/</guid>
+      <description>&lt;p&gt;&lt;em&gt;This is part 3 of 3 about feature documentation on feature-based teams.&lt;/em&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a href=&#34;https://fmendes6.com/posts/20-04-06_documentation_problem&#34;&gt;Part 1 - The problem&lt;/a&gt;&lt;br&gt;
+&lt;a href=&#34;https://fmendes6.com/posts/20-04-13_documentation_squad&#34;&gt;Part 2 - Squad level documentation&lt;/a&gt;&lt;br&gt;
+&lt;strong&gt;Part 3 - Chapter level documentation&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;All platforms are different and deal with different limitations/constraints so is considerably harder to create a template the would work for all platforms. However, one question that we should always have in mind is:&lt;/p&gt;
+&lt;p&gt;&lt;em&gt;” What would a colleague of mine need to know if he/she started to work alongside me in a shared codebase?”&lt;/em&gt;&lt;/p&gt;
+&lt;p&gt;This helps us envision the use case in which a document would be useful:&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;As an iOS developer, when I join a new squad, I want to have a high-level idea of how my iOS colleagues have implemented the feature and how all the components interact with each other.&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;For this scenario, I have come up with a template (&lt;a href=&#34;https://gist.github.com/fmendes6/96f2ebfb190b4aa522f660059f3d918d&#34;&gt;see here&lt;/a&gt;) that would work well for most features, independently of the feature that we implement:&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;An overview of the architecture and services used;&lt;/li&gt;
+&lt;li&gt;How it interacts with other parts of the app;&lt;/li&gt;
+&lt;li&gt;A description of critical operations;&lt;/li&gt;
+&lt;li&gt;Testing considerations;&lt;/li&gt;
+&lt;li&gt;FAQ with common questions;&lt;/li&gt;
+&lt;li&gt;References to documents and pages specific to the platform.&lt;/li&gt;
+&lt;/ol&gt;
+&lt;p&gt;Finally, I would advise you to avoid any code snippets (use pseudo-code instead) and as fewer implementation details as possible, as these should live closer to the code in the pull requests description.&lt;/p&gt;
+&lt;p&gt;Once you finish writing the document, I would recommend you to request a review from your peers and improve it until they answer affirmatively to the following question:&lt;/p&gt;
+&lt;p&gt;&lt;em&gt;”If I just started working on this feature and I looked at this document, is the content here enough for me to start without having to reach out to the original developers?”&lt;/em&gt;&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Documentation: Squad</title>
+      <link>https://fmendes6.com/posts/20-04-13_documentation_squad/</link>
+      <pubDate>Mon, 13 Apr 2020 00:00:00 +0100</pubDate>
+      
+      <guid>https://fmendes6.com/posts/20-04-13_documentation_squad/</guid>
+      <description>&lt;p&gt;&lt;em&gt;&lt;em&gt;This is part 2 of 3 about feature documentation on feature-based teams.&lt;/em&gt;&lt;/em&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a href=&#34;https://fmendes6.com/posts/20-04-06_documentation_problem&#34;&gt;Part 1 - The problem&lt;/a&gt;&lt;br&gt;
+&lt;strong&gt;Part 2 - Squad level documentation&lt;/strong&gt;&lt;br&gt;
+&lt;a href=&#34;https://fmendes6.com/posts/20-04-20_documentation_chapter&#34;&gt;Part 3 - Chapter level documentation&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;As mentioned before, one of the main problems between different squads is the creation of silos, which typically results in people knowing very little about the other features that exist in the product.&lt;/p&gt;
+&lt;p&gt;To help solve this problem, I believe squads should have a central point of information, as well as a way for them to expose and communicate what their feature is about to other teams.&lt;/p&gt;
+&lt;p&gt;This means a document that is:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Short and to the point;&lt;/li&gt;
+&lt;li&gt;Understandable by everyone on the squad (engineers, designers, testers and project managers)&lt;/li&gt;
+&lt;li&gt;High-level with no platform-specific implementation details. For example, as an android developer, I don’t want to read iOS-specific tracking considerations in this document.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;With these considerations in mind, some of the use cases I envision for this document would be the following:&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;As an Android developer, I want to know what my Android colleagues are working on and how to use the feature.&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;blockquote&gt;
+&lt;p&gt;As a team lead, I want to know what is the roadmap of the teams I am leading (or others) during a meeting, as well as, how the data is flowing between platforms.&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;For these scenarios and considerations, I have come up with the following document structure and a template (&lt;a href=&#34;https://gist.github.com/fmendes6/51961e330f1766e5f4020de4e27a5d3e&#34;&gt;see here&lt;/a&gt;) that I use:&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;&lt;strong&gt;Usage&lt;/strong&gt; - Step by step on how to use the feature.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Use cases&lt;/strong&gt; - The main use cases of the feature and what actions can the user perform.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Roadmap&lt;/strong&gt; - Which release version was the feature first included in.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Team&lt;/strong&gt; - Who worked on the feature.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Architecture overview&lt;/strong&gt; - A brief overview of the data flow, how it is architected at a very high level.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Strategies&lt;/strong&gt;
+1. Tracking
+2. Localisation
+3. Content&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Resources&lt;/strong&gt; - With links to other documents and platforms.&lt;/li&gt;
+&lt;/ol&gt;
+&lt;p&gt;Keep in mind that this template is merely a guideline, so make sure you adapt it to your context.&lt;/p&gt;
+&lt;p&gt;Finally, I would advise you to avoid including any temporary solutions or information regarding the current state while the feature is still in development, as that would increase the probability of the document becoming outdated.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>A documentation problem</title>
+      <link>https://fmendes6.com/posts/20-04-06_documentation_problem/</link>
+      <pubDate>Mon, 06 Apr 2020 00:00:00 +0100</pubDate>
+      
+      <guid>https://fmendes6.com/posts/20-04-06_documentation_problem/</guid>
+      <description>&lt;p&gt;&lt;em&gt;This is part 1 of 3 about feature documentation on feature-based teams.&lt;/em&gt;&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Part 1 - The problem&lt;/strong&gt;&lt;br&gt;
+&lt;a href=&#34;https://fmendes6.com/posts/20-04-13_documentation_squad&#34;&gt;Part 2 - Squad level documentation&lt;/a&gt;&lt;br&gt;
+&lt;a href=&#34;https://fmendes6.com/posts/20-04-20_documentation_chapter&#34;&gt;Part 3 - Chapter level documentation&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;In an attempt to improve its teams&amp;rsquo; autonomy, Spotify adopted an &lt;a href=&#34;https://www.youtube.com/watch?v=4GK1NDTWbkY&amp;amp;list=RD4GK1NDTWbkY&amp;amp;start_radio=1&amp;amp;t=4&#34;&gt;engineering culture&lt;/a&gt; that would allow small cross-functional teams to have end-to-end responsibility for the stuff they build, from design, commit, deploy, maintenance to operations.&lt;/p&gt;
+&lt;p&gt;Instead of a model where teams are organised by the platform that they work on, the &amp;ldquo;Spotify model&amp;rdquo; proposes teams to be split by feature, with each team, now called a squad, having one or two representatives of each competency (Product, Android, etc.).&lt;/p&gt;
+&lt;table&gt;
+&lt;thead&gt;
+&lt;tr&gt;
+&lt;th&gt;Feature 1&lt;/th&gt;
+&lt;th&gt;Feature 2&lt;/th&gt;
+&lt;th&gt;Feature 3&lt;/th&gt;
+&lt;/tr&gt;
+&lt;/thead&gt;
+&lt;tbody&gt;
+&lt;tr&gt;
+&lt;td&gt;&lt;em&gt;Product&lt;/em&gt;&lt;/td&gt;
+&lt;td&gt;&lt;em&gt;Product&lt;/em&gt;&lt;/td&gt;
+&lt;td&gt;&lt;em&gt;Product&lt;/em&gt;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;&lt;em&gt;Android&lt;/em&gt;&lt;/td&gt;
+&lt;td&gt;&lt;em&gt;Android&lt;/em&gt;&lt;/td&gt;
+&lt;td&gt;&lt;em&gt;Android&lt;/em&gt;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;&lt;em&gt;Web&lt;/em&gt;&lt;/td&gt;
+&lt;td&gt;&lt;em&gt;Web&lt;/em&gt;&lt;/td&gt;
+&lt;td&gt;&lt;em&gt;Web&lt;/em&gt;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;&lt;em&gt;Backend&lt;/em&gt;&lt;/td&gt;
+&lt;td&gt;&lt;em&gt;Backend&lt;/em&gt;&lt;/td&gt;
+&lt;td&gt;&lt;em&gt;Backend&lt;/em&gt;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;&lt;em&gt;QA&lt;/em&gt;&lt;/td&gt;
+&lt;td&gt;&lt;em&gt;QA&lt;/em&gt;&lt;/td&gt;
+&lt;td&gt;&lt;em&gt;QA&lt;/em&gt;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;/tbody&gt;
+&lt;/table&gt;
+&lt;p&gt;This organisation enables cross-functional squads to focus on a particular domain problem that they call a mission, and nothing else. This focus naturally leads to faster delivery since all implementation decisions are now taken locally but comes with the cost of further increasing information silos between squads if communication isn&amp;rsquo;t promoted and consistent, which usually results in:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;People knowing very little about other features. With different features under development in parallel, it becomes hard to keep track of what is done and how.&lt;/li&gt;
+&lt;li&gt;Joining another squad is almost like joining a new company. You might share (or not) the same codebase, but the domain and the problem you are tackling can be completely different, which is excellent for people that want to work on something new from time to time but it is also costly for the company since it can take a considerable amount of time for someone to become productive.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;Teams following this culture will take advantage of the physical proximity and faster (cross-platform) communication, which leads to quicker development but will lose out on cross-squad debate that leads to more sound and thoughtful decisions, consistent and long-lasting knowledge across the company.&lt;/p&gt;
+&lt;p&gt;To tackle this problem, engineering teams promote code reviews from other squads in an attempt to reduce the creation of silos, but in reality, this generally results in reviews that do not consider the context and the overall high-level solution behind a code change, as engineers will mostly evaluate/review the technical aspects and not so much the global solution. To make matters worse, some squads will opt to review only squad-related work so that they can speed-up squad delivery but that further increases the existing silos of information between squads.&lt;/p&gt;
+&lt;p&gt;These problems lead me to believe that companies need to seriously consider taking the time to communicate between squads because a company that favours communication before development and sharing information afterwards, will be able to:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Reuse some of the systems, platforms or tools that were developed by different squads instead of creating new ones, avoiding the cost of twice the developing time.&lt;/li&gt;
+&lt;li&gt;Reuse systems that were developed in the past instead of relying on specific individuals. Those individuals might have created a great product at that time, but the engineers of today do not have the time to learn how to use it or are in place to reuse it.&lt;/li&gt;
+&lt;li&gt;Share existing knowledge of the systems that are in place with any new hires, or even when moving people from a different squad. Without proper documentation and communication processes, a recent hire will not know about what is being developed in the other ten squads, why and how.&lt;/li&gt;
+&lt;li&gt;Keep a record of the context and considerations at a particular time, so that squads can take quicker and more thoughtful decisions in the future.&lt;/li&gt;
+&lt;li&gt;Have squads that provide more accurate estimates of pieces of work that were already developed by others.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;Full autonomy is a problem when squads start developing tools that other squads already developed or when they decide to implement solutions that negatively impact other teams. It sounds great, but just like any organism, a product is not merely the sum of its parts. If our digestive system does not process food properly, there will be an impact on all the other organs.&lt;/p&gt;
+&lt;p&gt;And here, those &amp;ldquo;boring&amp;rdquo; and &amp;ldquo;slow&amp;rdquo; processes that &amp;ldquo;are in the way&amp;rdquo; come into play and save a lot of the company&amp;rsquo;s time and money.&lt;/p&gt;
+&lt;p&gt;However, discussing ideas and solutions sounds great, but different squads are usually at different stages of development so they might not have the time or the willingness to have meetings and calls to approve someone else&amp;rsquo;s work.&lt;/p&gt;
+&lt;p&gt;So instead of having synchronous communication across squads/chapters, each squad should be responsible for communicating about what it is developing, how and why in one-way asynchronous communication. This opens up the possibility for outside feedback, which might come or not, but at least valuable information is saved for future reference.&lt;/p&gt;
+&lt;p&gt;With this in mind, the next blogposts in this series will propose two new types of documentation, one product-oriented for sharing between squads and one competency-specific for sharing between the chapter.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Online courses with Coursera</title>
+      <link>https://fmendes6.com/posts/20-02-06_coursera/</link>
+      <pubDate>Thu, 06 Feb 2020 00:00:00 +0000</pubDate>
+      
+      <guid>https://fmendes6.com/posts/20-02-06_coursera/</guid>
+      <description>&lt;p&gt;Even though online courses have been around for a while, they have never been so widespread and seen as a solution as now.&lt;/p&gt;
+&lt;p&gt;We live in an era where anything that can accelerate the readiness of professionals without an IT background, like in bootcamps, will be seen as part of a solution for the lack of professionals in the workforce and online courses are a big part of it.&lt;/p&gt;
+&lt;p&gt;Despite the hurdles of managing a company,  lay-offs, price adjustments and so on, the number of users keeps growing year over year with apparently &lt;em&gt;Coursera&lt;/em&gt; growing up to 40-45 million registered users by the end of 2019 and &lt;em&gt;Udacity&lt;/em&gt; to be expected to hit the 11.5 million mark by the same time.&lt;/p&gt;
+&lt;h2 id=&#34;coursera&#34;&gt;Coursera&lt;/h2&gt;
+&lt;p&gt;Launched in 2012, the &amp;ldquo;year of MOOCs&amp;rdquo; (massive online open course), Coursera rapidly became one of the biggest educational platforms online.&lt;/p&gt;
+&lt;p&gt;The pricing seems similar in the vast majority of the courses, with monthly subscriptions of 37-60£ per course or an annual payment of 304£ to access over 2000 courses, specialisations and certificates.&lt;/p&gt;
+&lt;p&gt;Paying for a subscription not only provides you with a set of learning materials and videos from the lecturers but also with quizzes, assignments and a mini project to consolidate the topic you just studied.&lt;/p&gt;
+&lt;h2 id=&#34;project&#34;&gt;Project&lt;/h2&gt;
+&lt;p&gt;For the past months, I have been doing the &lt;em&gt;User Experience Research and Design Specialisation&lt;/em&gt; which consists of 6 courses, with each one taking around one month to finish.&lt;/p&gt;
+&lt;p&gt;Courses are then subdivided in a set of weeks, with weeks having 2 to 4 videos ranging from 5 to 20 minutes, as well as, quizzes, assignments and a mini-project at the end of the course.&lt;/p&gt;
+&lt;p&gt;By the end of course one, I had to do a Heuristics evaluation of the Coursera forums and write up to 10 issues in the user experience that are not following good practices. Each finding should have the following structure:&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Finding 1:&lt;/strong&gt; &lt;em&gt;Short description&lt;/em&gt;&lt;br&gt;
+&lt;strong&gt;Severity:&lt;/strong&gt; &lt;em&gt;-/4&lt;/em&gt;&lt;br&gt;
+&lt;strong&gt;Heuristic Observed:&lt;/strong&gt; &lt;em&gt;Heuristic #1&lt;/em&gt;, &lt;em&gt;Heuristic #4&lt;/em&gt;&lt;br&gt;
+&lt;strong&gt;Description:&lt;/strong&gt; &lt;em&gt;A brief description of the problem&lt;/em&gt;&lt;br&gt;
+&lt;strong&gt;Recommendation:&lt;/strong&gt; &lt;em&gt;Provide a solution to fix the problem&lt;/em&gt;&lt;/p&gt;
+&lt;p&gt;For course two, the main goal was to understand the user&amp;rsquo;s needs in one particular feature of any app of our choice. After conducting interviews designed by ourselves with at least two people, we would then create an &amp;ldquo;affinity wall&amp;rdquo; which is a set of columns organised by topic, each containing a few post-its with quotes and observations from the participants.&lt;/p&gt;
+&lt;table&gt;
+&lt;thead&gt;
+&lt;tr&gt;
+&lt;th&gt;Lack of personalisation&lt;/th&gt;
+&lt;th&gt;Lack of reminders&lt;/th&gt;
+&lt;/tr&gt;
+&lt;/thead&gt;
+&lt;tbody&gt;
+&lt;tr&gt;
+&lt;td&gt;[User1] &lt;em&gt;Observation #1&lt;/em&gt;&lt;/td&gt;
+&lt;td&gt;[User2] &lt;em&gt;Observation #2&lt;/em&gt;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;[User1] &lt;em&gt;Quote&lt;/em&gt;&lt;/td&gt;
+&lt;td&gt;[User1] &lt;em&gt;Quote&lt;/em&gt;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;[User2] &lt;em&gt;Quote&lt;/em&gt;&lt;/td&gt;
+&lt;td&gt;-&lt;/td&gt;
+&lt;/tr&gt;
+&lt;/tbody&gt;
+&lt;/table&gt;
+&lt;p&gt;From all these topics, we would then extract the main issues of the app.&lt;/p&gt;
+&lt;h2 id=&#34;thoughts&#34;&gt;Thoughts&lt;/h2&gt;
+&lt;p&gt;I realise now that this is the third time I write about education, after reviewing the &lt;em&gt;Design for Mobile Developers&lt;/em&gt; course on Udacity and then by doing a retrospective on my Master&amp;rsquo;s degree four years later.&lt;/p&gt;
+&lt;p&gt;Online courses, in particular, are an interesting topic because even though software companies might hire someone with one and without a degree, the same doesn&amp;rsquo;t happen in the public sector.&lt;/p&gt;
+&lt;p&gt;Meaning that you might get a job in a private company but you will be unable to secure a job in schools or public companies. And it&amp;rsquo;s not hard to understand why.&lt;/p&gt;
+&lt;p&gt;In online courses, videos last no longer than an hour combined per week, which is nowhere near the minimum of what formal institutions require you to attend. Most platforms&amp;rsquo; courses, &lt;em&gt;Coursera&lt;/em&gt; being one, are peer-reviewed which means that the grades you get are not assigned by a credited professor but by another amateur/non-graded students.&lt;/p&gt;
+&lt;p&gt;This doesn&amp;rsquo;t mean that online courses can&amp;rsquo;t be almost as important. To stay relevant in the software industry, IT professionals must keep learning and diversify their skills throughout the years.&lt;/p&gt;
+&lt;p&gt;If you plan to be as vertical and as specialised as possible in a career path, researching and focusing on that one field is crucial. But if you want to have a broader view on how a product gets developed, shipped and managed, an horizontal knowledge across all the disciplines involved is more valuable.&lt;/p&gt;
+&lt;p&gt;In my group of friends, the question to whether pay for a certificate or not, has always been at the core of our discussions. However, today I am sure that if the goal is to learn properly about a subject, practising it is mandatory, either by the form of quizzes or assignments, and that comes only with a subscription.&lt;/p&gt;
+&lt;p&gt;The main problem now is which platform to choose, but what if they were equally valuable in different scenarios? Maybe even at different points in your professional life?&lt;/p&gt;
+&lt;p&gt;&lt;em&gt;Udacity&lt;/em&gt; seems to be a great platform if what you are looking for is learning about a topic in a &amp;ldquo;close&amp;rdquo; relationship with a specific private company.&lt;/p&gt;
+&lt;p&gt;Since most of their courses are prepared in collaboration with big names of the industry, and sometimes even lectured by their professionals, the price naturally reflects this with courses going for several hundreds of dollars per month.&lt;/p&gt;
+&lt;p&gt;&lt;em&gt;Udemy&lt;/em&gt;, on the other hand, is more like a battle-royal of courses where anyone can create their own and sell its content. Consequently, there is a lot of dubious and sketchy courses, but among them, you might be able to find a few gems.&lt;/p&gt;
+&lt;p&gt;If what you are looking for is to get to know as much as possible about a particular topic, or even personal perspectives and uses of technology, &lt;em&gt;Udemy&lt;/em&gt; might have courses that contain unique content that does not exist anywhere else.&lt;/p&gt;
+&lt;p&gt;&lt;em&gt;Coursera&lt;/em&gt; seems to have more of a classical approach to education, by providing content designed and developed by universities, which tends to focus more on the conceptual side and not so much on specific tools or technologies.&lt;/p&gt;
+&lt;p&gt;Currently for me, &lt;em&gt;Coursera&lt;/em&gt; makes the most sense because I want to learn about UX research and the thought/planning process behind it, which means the concepts and techniques used by designers and not the technologies they use.&lt;/p&gt;
+&lt;p&gt;For example, I was happy to see that by the end of the first course of the UX specialisation, there was a video with two interviews to professionals where they described the design process behind their products, which was something that I felt missing in the Udacity&amp;rsquo;s course:&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;&amp;ldquo;…I was hoping that at the end of all the lessons, there would be an extra video explaining how a real-world app like Google Keep or Google Music was designed.&amp;rdquo; - &lt;a href=&#34;https://sharednode.org/blog/14-08-03_udacity/&#34;&gt;Udacity&amp;rsquo;s UX for Mobile Developers&lt;/a&gt;&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;If you intend to secure a job in the industry, an online course might not be enough, but it certainly gives you a substantial resume boost. Moreover, if that course is about a field of expertise that is adjacent to yours like design is to development, you will have the skills to communicate effectively between teams and understand how they work, which would make you a professional that most software companies lack.&lt;/p&gt;
+&lt;p&gt;If you are fortunate to be in a company that provides an educational budget for your professional development, there is no excuse for not taking advantage of it. As a former teacher of mine used to say &amp;ldquo;&lt;em&gt;Education is the only investment in life with a guaranteed 100% return.&lt;/em&gt;.&amp;rdquo;&lt;/p&gt;
+&lt;h3 id=&#34;qa&#34;&gt;QA&lt;/h3&gt;
+&lt;p&gt;&lt;strong&gt;Isabel Costa&lt;/strong&gt; (&lt;a href=&#34;https://www.twitter.com/@isabelcmdcosta&#34;&gt;&lt;em&gt;@isabelcmdcosta&lt;/em&gt;&lt;/a&gt;)&lt;br&gt;
+&lt;strong&gt;Software Developer&lt;/strong&gt; at &lt;strong&gt;GeoPhy&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;1. How do you think companies see online courses and other non-college institutions, like bootcamps?&lt;/strong&gt;&lt;br&gt;
+I think companies might see this in different ways. It depends on the recruitment process and people in charge of it. From my perspective, as a college degree graduate, I think some companies may see it like the candidate is interested in learning and evolving as an engineer, and end up valuing this continuous learning attitude.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;2. Which courses did you finish and what benefits did you take from them?&lt;/strong&gt;&lt;br&gt;
+I did 2 courses on Coursera back in 2015, one on Computer Networks and the other on Web Application Architectures. I think as a student at the time, this could show potential employers I was interested and eager to learning about technology besides what I was taught in school.&lt;/p&gt;
+&lt;p&gt;I also, got to learn some more development focused and less theoretical focused concepts important for web development, that I actually was not taught in college. Today, I’m using Udemy as a way of learning core knowledge I need for work.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;3. What do you think about all the different options available?&lt;/strong&gt;&lt;br&gt;
+Regarding online courses, I can’t think about any format being missing. I think that are a lot of options out there, from video courses, to interactive web applications that teach you software engineering concepts and technologies.&lt;/p&gt;
+&lt;h2 id=&#34;resources&#34;&gt;Resources&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://www.investopedia.com/articles/investing/042815/how-coursera-works-makes-money.asp&#34;&gt;How Coursera Makes Money&lt;/a&gt; by Investopedia&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://www.owler.com/company/udacity&#34;&gt;Udacity Competitors, Revenue and Employees &lt;/a&gt; by Owler&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://www.classcentral.com/report/udacity-2019-year-review/&#34;&gt;Udacity’s 2019: Year in Review&lt;/a&gt; by Class Central&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://www.classcentral.com/report/coursera-2019-year-review/&#34;&gt;Coursera’s 2019: Year in Review&lt;/a&gt; by Class Central&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://www.coursera.org/specializations/michiganux&#34;&gt;User Experience Research and Design&lt;/a&gt; by Coursera&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://www.quora.com/How-valid-are-Coursera-or-other-online-certificates-as-compared-to-proper-degree&#34;&gt;How valid are Coursera or other online certificates as compared to proper degree?&lt;/a&gt; by on Quora&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://www.nngroup.com/articles/ten-usability-heuristics/&#34;&gt;Heuristics evaluation&lt;/a&gt; by Nngroup&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://www.nngroup.com/articles/affinity-diagram/&#34;&gt;Affinity diagram&lt;/a&gt; by Nngroup&lt;/li&gt;
+&lt;/ul&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Static sites with Hugo</title>
+      <link>https://fmendes6.com/posts/20-01-23_hugo/</link>
+      <pubDate>Thu, 23 Jan 2020 00:00:00 +0000</pubDate>
+      
+      <guid>https://fmendes6.com/posts/20-01-23_hugo/</guid>
+      <description>&lt;p&gt;At a time when &lt;em&gt;Content Management Systems&lt;/em&gt; solutions, like &lt;em&gt;Wordpress&lt;/em&gt; or &lt;em&gt;Joomla&lt;/em&gt; had an associated cost and required a considerable amount of maintenance, static site generators such as Jekyll, together with free hosting services like &lt;em&gt;Github Pages&lt;/em&gt;, were created to help users set up, host and run their website in a matter of minutes.&lt;/p&gt;
+&lt;p&gt;It was not unusual in hosted &lt;em&gt;Wordpress&lt;/em&gt; solutions to have to update their &lt;em&gt;Wordpress&lt;/em&gt; instance or 3rd party plugins from time to time, even for those who just wanted to have a blog or to build an online presence by showcasing their CV.&lt;/p&gt;
+&lt;p&gt;Static site generators fixed these issues while also making it easier to backup, offering more flexibility and requiring fewer security concerns, which makes the user focus on the content and not so much on the infrastructure around it.&lt;/p&gt;
+&lt;h2 id=&#34;hugo&#34;&gt;Hugo&lt;/h2&gt;
+&lt;p&gt;Written in &lt;em&gt;Go&lt;/em&gt; in 2013, &lt;em&gt;Hugo&lt;/em&gt; is another static site generator but with a focus on speed and flexibility. With a lot of different themes to choose from, free or paid, &lt;em&gt;Hugo&lt;/em&gt; provides many different tools and defines guidelines on best practices for theme creators, so that end-users can switch between themes without having to introduce significant changes in the codebase.&lt;/p&gt;
+&lt;p&gt;As an example, most themes support out of the box integrations with tracking platforms like &lt;em&gt;Google Analytics&lt;/em&gt; or 3rd party comment services like &lt;em&gt;Disqus&lt;/em&gt;.&lt;/p&gt;
+&lt;h2 id=&#34;project&#34;&gt;Project&lt;/h2&gt;
+&lt;p&gt;Recently I have worked with Hugo in two different projects, with this blog being the first one and an engineering documentation website at my workplace the second, both with different requirements.&lt;/p&gt;
+&lt;h3 id=&#34;sharednode&#34;&gt;Sharednode&lt;/h3&gt;
+&lt;p&gt;Moving &lt;em&gt;Sharednode&lt;/em&gt; to a static site required the following:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Support for multi language;&lt;/li&gt;
+&lt;li&gt;Support for several menus;&lt;/li&gt;
+&lt;li&gt;Support for different authors;&lt;/li&gt;
+&lt;li&gt;Support for content exporting;&lt;/li&gt;
+&lt;li&gt;A responsive design;&lt;/li&gt;
+&lt;li&gt;A minimalistic design.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;Minimalistic and with two predominant colours, the &lt;em&gt;ezhil&lt;/em&gt; theme seemed to be the closest to the &lt;em&gt;Sharednode&lt;/em&gt; brand, even though it required a few tweaks.&lt;/p&gt;
+&lt;p&gt;Even though Hugo provides support for themes to be multilingual, not all are ready for it, so it was necessary to add a menu button to the top-right corner of the theme with the language codes in which the content was also translated.&lt;/p&gt;
+&lt;p&gt;&lt;em&gt;Sharednode&lt;/em&gt; was initially created to be used by different authors, so it was essential to keep that feature. Even though the theme did not support this either, it was achieved by adding a new author field to the front matter&lt;sup id=&#34;fnref:1&#34;&gt;&lt;a href=&#34;#fn:1&#34; class=&#34;footnote-ref&#34; role=&#34;doc-noteref&#34;&gt;1&lt;/a&gt;&lt;/sup&gt; of each post and then referencing it in the post’s &lt;em&gt;HTML&lt;/em&gt; page.&lt;/p&gt;
+&lt;p&gt;Posts can be written in &lt;em&gt;markdown&lt;/em&gt;, isolated from the theme implementation, which makes it straightforward to export them or reuse elsewhere when needed.&lt;/p&gt;
+&lt;p&gt;With &lt;em&gt;ezhil&lt;/em&gt; having a responsive design, just as most of the themes available online, all the initial requirements were now met.&lt;/p&gt;
+&lt;h3 id=&#34;engineering-documentation&#34;&gt;Engineering documentation&lt;/h3&gt;
+&lt;p&gt;The engineering documentation has a different purpose compared to the previous project. In this case, the site had been built with the &lt;em&gt;whisper&lt;/em&gt; theme, and it needed to start supporting multiple menus so that it would be easier to add and discover content.&lt;/p&gt;
+&lt;p&gt;It was important to move from a single menu with a sidebar (with further navigation) to four menus, each with their sidebar and their submenus.&lt;/p&gt;
+&lt;p&gt;Hugo generates each menu by scanning through each folder inside the content folder, the root of all content, and then each sidebar by getting the title of each post inside that folder.&lt;/p&gt;
+&lt;p&gt;To have a second layer of navigation in the sidebar, I added an extra field in each post’s front matter that is verified during the sidebar generation, and if present, a tab space is printed.&lt;/p&gt;
+&lt;p&gt;For interface and visual tweaks, like updating colours and replacing assets, it was necessary to create a folder in the root of the project, with the same name as the asset’s folder in the theme, so that those values get overridden during the site generation.&lt;/p&gt;
+&lt;p&gt;This was necessary because the project sets up its theme through a git submodule, so whenever the site gets deployed, local changes in the theme are not applied remotely.&lt;/p&gt;
+&lt;h2 id=&#34;thoughts&#34;&gt;Thoughts&lt;/h2&gt;
+&lt;p&gt;There is a trend of people that recently is migrating from &lt;em&gt;medium&lt;/em&gt; since content paywalls were introduced, which gives an edge to authors that opted-in and does not promote the ones that don’t.&lt;/p&gt;
+&lt;p&gt;Even though &lt;em&gt;Sharednode&lt;/em&gt; doesn’t have an audience big enough for it to be a concern, moving from medium to a static site occurred mostly because of the multi-language support as well as the flexibility to visually and functionally customise.&lt;/p&gt;
+&lt;p&gt;At this point, I already had tried to set up a site in Jekyll a few years before, but because I failed at doing so, I decided to go with Hugo this time. Plus, I had seen Steve Francia doing a presentation with Hugo and saw how fast it was to set up and run and deploy.&lt;/p&gt;
+&lt;p&gt;Setting up the base for &lt;em&gt;Sharednode&lt;/em&gt; wasn’t as simple as I thought, but after watching the video tutorials, it became pretty straightforward. Customising it, however, took slightly longer.&lt;/p&gt;
+&lt;p&gt;While setting the navigation is done mostly through Hugo configurations and general assumptions, customising the UI and adding extra functionality like multi-language is highly dependent on the theme that one uses.&lt;/p&gt;
+&lt;p&gt;After both experiences, I am still not sure what to think about the organisation of the official documentation since it can be quite good at times but also a bit confusing when you are just starting to work with static sites since the documentation is organised at a technical level and not so much on functionality. This organisation means that users go online and ask about how can they implement the feature that they need.&lt;/p&gt;
+&lt;p&gt;I have noticed that Hugo does not seem to support any content searching out of the box, so in a blog-style site, this could potentially be limiting for visitors. Similarly, in the creator’s side, I decided to prefix the date of publishing to each post’s filename so that content filtering in the future becomes possible.&lt;/p&gt;
+&lt;p&gt;Statically generated sites are certainly not the solution for every content creator but with the use of standard text formats like markdown and it’s inheriting exporting nature, together with theming flexibility and feature extensibility, makes them an option worth considering.&lt;/p&gt;
+&lt;h3 id=&#34;qa&#34;&gt;QA&lt;/h3&gt;
+&lt;p&gt;&lt;strong&gt;João Junceira&lt;/strong&gt; (&lt;a href=&#34;https://www.twitter.com/@joaojunceira&#34;&gt;&lt;em&gt;@jmjunceira&lt;/em&gt;&lt;/a&gt;)&lt;br&gt;
+&lt;strong&gt;Software Developer&lt;/strong&gt; at &lt;strong&gt;Teckro&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;1. How do you see the role of generated static websites in today’s industry?&lt;/strong&gt;&lt;br&gt;
+Static websites are around for a long time since the Web started. I think they are getting
+popular thanks to Git-based hosting. They are useful to write documentation, web pages
+to promote a product, blogs or even some corporate page.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;2. Have you used any in the past?&lt;/strong&gt;&lt;br&gt;
+I have a Hugo page with my CV and personal project. Once created a blog to test the
+features. It&amp;rsquo;s quite easy to use and seems to be really fast to publish.&lt;/p&gt;
+&lt;p&gt;However, Hugo might not be the most friendly tool for front-end developers because it&amp;rsquo;s
+written in Golang. Since this are power-users that like to customise their tools.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;3. In which other scenarios would you use Hugo?&lt;/strong&gt;&lt;br&gt;
+Have a corporate static page or page to promote a product. Any other technical purpose
+such as documentation. Basically anything that doesn&amp;rsquo;t need to query a backend.&lt;/p&gt;
+&lt;h2 id=&#34;resources&#34;&gt;Resources&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://gohugo.io&#34;&gt;Hugo official website&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://www.mkdocs.org&#34;&gt;MkDocs official website&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://github.com/vividvilla/ezhil&#34;&gt;Ezhil theme for Hugo&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://themes.gohugo.io/hugo-whisper-theme/&#34;&gt;Whisper theme for Hugo&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://programminghistorian.org/en/lessons/building-static-sites-with-jekyll-github-pages&#34;&gt;Building a static website with Jekyll and GitHub Pages&lt;/a&gt; by Programming Historian&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://gohugo.io/content-management/front-matter/&#34;&gt;Front Matter&lt;/a&gt; by Hugo&lt;/li&gt;
+&lt;/ul&gt;
+&lt;section class=&#34;footnotes&#34; role=&#34;doc-endnotes&#34;&gt;
+&lt;hr&gt;
+&lt;ol&gt;
+&lt;li id=&#34;fn:1&#34; role=&#34;doc-endnote&#34;&gt;
+&lt;p&gt;&amp;ldquo;Front matter allows you to keep metadata attached to a post, i.e, it define the title, data, weight, etc. &lt;a href=&#34;#fnref:1&#34; class=&#34;footnote-backref&#34; role=&#34;doc-backlink&#34;&gt;&amp;#x21a9;&amp;#xfe0e;&lt;/a&gt;&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ol&gt;
+&lt;/section&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Machine Learning with Firebase</title>
+      <link>https://fmendes6.com/posts/20-01-09_mlkit/</link>
+      <pubDate>Thu, 09 Jan 2020 00:00:00 +0000</pubDate>
+      
+      <guid>https://fmendes6.com/posts/20-01-09_mlkit/</guid>
+      <description>&lt;p&gt;It’s undeniable the spotlight that machine learning has been having in the past years, with major companies like Google taking advantage of it, or even claiming, that it is at the center of their products.&lt;/p&gt;
+&lt;p&gt;The amount of quality data gathered, as well as the domains it covers, will determine which companies of today will dominate the world in the next decade. This requires them to ship products with ML but also to provide tools for 3rd-party developers to adopt.&lt;/p&gt;
+&lt;p&gt;Even though regulations forbid them to use personally identifiable data gathered by developers, companies will benefit from massive amounts of anonymous statistics that only a world-wide usage can provide, which will be used to improve their learning algorithms and products in the long run.&lt;/p&gt;
+&lt;h2 id=&#34;mlkit&#34;&gt;MLKit&lt;/h2&gt;
+&lt;p&gt;Announced at Google IO 2018 and as part of Firebase, MLKit is one of those tools that aims to democratize the access to ML by letting developers process data on the device or the cloud through the use of a simple set of APIs. These include:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://firebase.google.com/docs/ml-kit/recognize-text&#34;&gt;Text recognition&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://firebase.google.com/docs/ml-kit/detect-faces&#34;&gt;Face Detection&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://firebase.google.com/docs/ml-kit/label-images&#34;&gt;Image labeling&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://firebase.google.com/docs/ml-kit/read-barcodes&#34;&gt;Barcode scanner&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://firebase.google.com/docs/ml-kit/identify-languages&#34;&gt;Natural language processing&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;It is possible to add a custom image interpreter or shape detector for more fine-grained control but this comes with a considerable cost, as it will require a lot more work to implement and less support and documentation to resort too.&lt;/p&gt;
+&lt;h2 id=&#34;project&#34;&gt;Project&lt;/h2&gt;
+&lt;p&gt;Creating a custom model on firebase and using MLKit on the mobile apps for detection, appeared to be a good alternative for those who want a specific solution but without a big implementation cost.&lt;/p&gt;
+&lt;p&gt;In a team of three as part of a Hackaton, a prototype was created that would take a picture of a skin mole and use MLKit to process and detect signs of skin diseases. This was achieved by first downloading a public dataset of pictures containing skin moles, labeled with their corresponding diseases and then uploading them to firebase which creates and trains a model and then generates a &lt;code&gt;.tflite&lt;/code&gt; file.&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;https://fmendes6.com/images/20-01-09_mlkit.png&#34; alt=&#34;ML Kit project&#34;&gt;&lt;/p&gt;
+&lt;p&gt;Next, the mobile application selects an image, either by choosing from the gallery or by taking a picture and then processes it with MLKit against the provided model resulting in a set of confidence levels for each provided label, for example:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Melanoma - 95%&lt;/li&gt;
+&lt;li&gt;Benign Keratosis - 10%&lt;/li&gt;
+&lt;li&gt;Dermatofibroma - 5%&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&#34;thoughts&#34;&gt;Thoughts&lt;/h2&gt;
+&lt;p&gt;Developing a custom model for a specific problem (analysing skin moles) proved to be an interesting challenge because the domain was outside of the 400 provided categories by MLKit’s image labeling capabilities.&lt;/p&gt;
+&lt;p&gt;Creating a model on firebase required us to make a trade-off between latency and file size of the model versus its accuracy, with the general plan taking an hour and a half to train around 6322 pictures and generating a 3.2mb &lt;code&gt;.tflite&lt;/code&gt; model file. As a reference and according to the estimations, training a model with the &lt;em&gt;Higher Accuracy&lt;/em&gt; plan would take around 6 hours.&lt;/p&gt;
+&lt;p&gt;Even though the creation, integration, and use of a custom model in an android app took no longer than half a day on a first try, if we wanted to have a custom shape detector for the app to focus solely on the moles and ignore the rest of the picture, it would be a much bigger challenge due to the very limited existing documentation.&lt;/p&gt;
+&lt;p&gt;One colleague of mine managed to get it working by following a (long) &lt;a href=&#34;https://medium.com/tensorflow/training-and-serving-a-realtime-mobile-object-detector-in-30-minutes-with-cloud-tpus-b78971cf1193&#34;&gt;tutorial&lt;/a&gt; that promised to &lt;em&gt;&amp;ldquo;create a mobile object detector in 30 minutes&amp;rdquo;&lt;/em&gt; but which took almost 3 days to complete due to incorrect shell commands, TPUs not running as expected and much more.&lt;/p&gt;
+&lt;p&gt;Having explored only the image labeling capabilities of MLKit, the library seems powerful and relatively easy to use for general purposes or proofs-of-concept but be prepared if you need to develop a very custom or data critical application.&lt;/p&gt;
+&lt;p&gt;Finally, if you plan on using cloud TPUs (tensor processing units) on a trial plan, make sure you turn them off after the use to avoid unnecessary and costly surprises.&lt;/p&gt;
+&lt;h3 id=&#34;qa&#34;&gt;QA&lt;/h3&gt;
+&lt;p&gt;&lt;strong&gt;Attila Blénesi&lt;/strong&gt; (&lt;a href=&#34;www.twitter.com/@ablenessy&#34;&gt;@ablenessy&lt;/a&gt;)&lt;br&gt;
+&lt;strong&gt;Android Developer&lt;/strong&gt; at &lt;em&gt;Babylon Health&lt;/em&gt;&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;1. How do you see the emergence of AI in the software industry?&lt;/strong&gt;&lt;br&gt;
+AI has been a topic for decades, the accesability of compute and data in the past decades enable the topic to boom. Currently the democratisation of AI tools and resources will dominate the next decade, in my opinion.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;2. Tell us about any experience you had with machine learning.&lt;/strong&gt;&lt;br&gt;
+I have been working with on-device machine learning on Android for the past few years, focusing on the integration of off the shelf (Vision &amp;amp; object detection) and custom (GAN - Pix to pix) models. Had gone through struggles and sweat in the first stages when TensorFlow Lite was announced, but now the developer experience is much more streamlined. Just in the past year, advances that enable more and more devs to implement features with ease.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;3. Would you consider MLKit as a core library of a project?&lt;/strong&gt;&lt;br&gt;
+Definitely yes, If there is a user need that their offerings vision and language custom AI can solve, it cuts down the development process significantly. Enables developers to focus on crafting the user experience, handing over the model deployment, and inference execution to MLKit that provides you with easy to use API&amp;rsquo;s, using state of the art solutions, best practices in the background.&lt;/p&gt;
+&lt;h2 id=&#34;resources&#34;&gt;Resources&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://firebase.google.com/docs/ml-kit&#34;&gt;ML Kit&lt;/a&gt; by Firebase&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://github.com/firebase/mlkit-material-android&#34;&gt;ML Kit Showcase with Material Design&lt;/a&gt; by Firebase&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://medium.com/tensorflow/training-and-serving-a-realtime-mobile-object-detector-in-30-minutes-with-cloud-tpus-b78971cf1193&#34;&gt;&lt;em&gt;&amp;ldquo;Create a mobile shape detector in 30 minutes&amp;rdquo;&lt;/em&gt;&lt;/a&gt; by TensorFlow&lt;/li&gt;
+&lt;/ul&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>MonzoPrep</title>
+      <link>https://fmendes6.com/posts/19-09-03_monzoprep/</link>
+      <pubDate>Tue, 03 Sep 2019 00:00:00 +0100</pubDate>
+      
+      <guid>https://fmendes6.com/posts/19-09-03_monzoprep/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>10 Android layout tips for beginners</title>
+      <link>https://fmendes6.com/posts/14-05-26_tips/</link>
+      <pubDate>Mon, 26 May 2014 00:00:00 +0100</pubDate>
+      
+      <guid>https://fmendes6.com/posts/14-05-26_tips/</guid>
+      <description>&lt;p&gt;Therefore, this post is the first one from a series of tips I would like to give to everyone who is just starting to develop applications for Android. The tips will be based on my experience and on what I&amp;rsquo;ve learnt from more experienced developers over the time.&lt;/p&gt;
+&lt;p&gt;So without further ado, let&amp;rsquo;s start:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Always use shapes (circles and squares) drawn in xml, whenever you can, for performance / flexibility reasons. It is always better to have an oval shape than several png/jpg files with circles.&lt;/li&gt;
+&lt;li&gt;Forget about px and AbsoluteLayout as a measure  because they are not your friends, unless you are developing for a single device. And even in such case, it is not advised to use them!&lt;/li&gt;
+&lt;li&gt;Replace all the occurrences of fill_parent (deprecated on API 8)  with match_parent. There are still many examples on the internet with it, when in fact they shouldn’t be used anymore.&lt;/li&gt;
+&lt;li&gt;Learn how to use RelativeLayout because you will feel amazed with its flexibility when you need to position its child views. Layout_below, layout_above, layout_toLeftOf, centerInParent ( etc. ) can be really handy sometimes.&lt;/li&gt;
+&lt;li&gt;Use LinearLayout when you need to perfectly distribute the space available. For instance, to distribute 3 circles evenly (horizontally or vertically) declare weigthSum = 0.3 on the LinearLayout and then set layout_weigth = 0.1 on each of the 3 children views.&lt;/li&gt;
+&lt;li&gt;When dealing with icons, use wrap_content in both width and height of the ImageView and then use margins and paddings to reposition it wherever you within the layout. Remember that if you use match_parent the image will stretch itself, which can lead to poor visual results.&lt;/li&gt;
+&lt;li&gt;Use &lt;a href=&#34;http://romannurik.github.io/AndroidAssetStudio/&#34;&gt;Google’s tools&lt;/a&gt; to generate icons for the various screen dimensions in case you have them only in one size.&lt;/li&gt;
+&lt;li&gt;Avoid setting fixed dimensions on the layout files (ex: layout_margin = 26dp ). Learn how to use the dimens.xml files to set different sizes,paddings and margins for the various densities. This is especially handy because In case you need to make a small adjustment to a particular screen density (or even add a new density like xxhdpi), you just need to edit the dimens.xml file on the corresponding values folder and not the whole layout file.&lt;/li&gt;
+&lt;li&gt;Use styles.xml files to define a particular style for a view. For instance, if you have a big form with a lot of edittexts with a specific border and background color, define a style on the styles.xml file and then reference it on the corresponding layout file. This will clean your layout code substantially.&lt;/li&gt;
+&lt;li&gt;Write comments on the strings, styles and colors files to help you and your team know where those values are being referenced.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;As a final note, I highly recommend you to use the preview tab available on Android Studio / IntelliJ. Seriously.
+This is probably the best advice anyone can give you. It will help you understand how views will be displayed when you are still writing their xml code.&lt;/p&gt;
+&lt;p&gt;PS: Did you know that a Button is a Textview just with a different style? Check the source code &lt;a href=&#34;android.googlesource.com/platform/frameworks/base/+/refs/heads/master/core/java/android/widget/Button.java&#34;&gt;here&lt;/a&gt;&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Xamarin First Impressions</title>
+      <link>https://fmendes6.com/posts/14-04-10_xamarin/</link>
+      <pubDate>Thu, 10 Apr 2014 00:00:00 +0100</pubDate>
+      
+      <guid>https://fmendes6.com/posts/14-04-10_xamarin/</guid>
+      <description>&lt;p&gt;It has been 13 months since I started developing for Android and until now I have been using eclipse/IntelliJ as my IDEs, however, a new professional commitment made me to develop for Android using Xamarin and this blog post discusses my first impressions that i’ve experienced as an Android developer with Xamarin.&lt;/p&gt;
+&lt;p&gt;“With Xamarin, you write your apps entirely in C#, sharing the same code on iOS, Android and Mac” is Xamarin’s moto as a platform to develop iOS and Android with C# instead of Objective-C or Java respectively.&lt;/p&gt;
+&lt;h2 id=&#34;but-why-developing-with-c-xamarin-instead-of-developing-with-the-language-that-android-was-designed-for&#34;&gt;But why developing with C# (xamarin) instead of developing with the language that Android was designed for?&lt;/h2&gt;
+&lt;p&gt;Although one reason may be that the developers are not familiar with Java, the most important (in my opinion) is the possibility of developing with the benefits that C# has over Java (delegates,linq,async operations,etc.). After all, i can assure you that the code looks clearer and is easier to develop.&lt;/p&gt;
+&lt;p&gt;On the other hand, it enables us to develop the application core (business logic and data access) that is separated from the UI, and gives us the possibility to reuse that code within various client applications (Android, Windows, iOS).&lt;/p&gt;
+&lt;h2 id=&#34;well-ok-buthow-does-it-work&#34;&gt;Well ok but&amp;hellip;How does it work?&lt;/h2&gt;
+&lt;p&gt;Xamarin lets us to develop everything with C# as long as we know how does the whole Android ecosystem works. It is necessary to understand the 4 basic components (Activity, Services, Broadcast Receivers and Content Providers) and how they work together. Even the types and methods are named same as in Java so that the only difference is the language in which one develops.&lt;/p&gt;
+&lt;p&gt;However, as someone who usually develops in Java, I realized quite quickly that a slight learning curve which was one of the noticeable differences. This was the use of custom attributes in activities in order to define their attributes (that is name, screen orientation, etc) instead of defining them in the manifest file. Also, as I noticed, there is a use of Properties instead of setter methods as in Java (ex: button.click += delegate {&amp;hellip;} instead of button.setOnClickListener(&amp;hellip;))&lt;/p&gt;
+&lt;h2 id=&#34;wow-that-seems-cool-so-how-do-we-start&#34;&gt;Wow! That seems cool! So how do we start?&lt;/h2&gt;
+&lt;p&gt;That is where the problems begin&amp;hellip;&lt;/p&gt;
+&lt;h3 id=&#34;visual-studio&#34;&gt;Visual Studio:&lt;/h3&gt;
+&lt;p&gt;I decided to start with Visual Studio since it is an IDE that I like a lot and that I had installed already because of my previous projects. The only necessary thing was to add a plugin (available for business accounts only).&lt;/p&gt;
+&lt;p&gt;After installing the plugin it is necessary to associate the business account with the Visual Studio int the menu options. The problem was that those options didn’t open because of a plugin error. After more than one hour (thanks to the deletion of one entry in the system registry), I managed to configure the account and deploy an Android application to my Nexus 4. But instantly Visual Studio warned me that LogCat would not be available for that application.&lt;/p&gt;
+&lt;p&gt;After this warning, I gave up with Visual Studio and decided to give Xamarin Studio a try.&lt;/p&gt;
+&lt;h3 id=&#34;xamarin-studio&#34;&gt;Xamarin Studio:&lt;/h3&gt;
+&lt;p&gt;At first glance it seems to be a fast and simple to use IDE. Without any greater difference from the other IDEs, it doesn’t require a great learning curve, which is good!&lt;/p&gt;
+&lt;p&gt;The first weird crash that occurs is related to the save file operation. From this point on, the sporadic weird crashes started to occur more frequently although on simple and fast IDE reset solved the issue.&lt;/p&gt;
+&lt;p&gt;By the time I started to develop my own layouts, i realized that the IDE has no auto-complete feature in the XML files (or AXML as Xamarin “calls” it).&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;SH*T.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;Being an avid user of the auto-complete feature, since it helps with productivity, I perceived the above as a problem.&lt;/p&gt;
+&lt;p&gt;After a short research on the Xamarin forums, I learnt that some users find it possible to turn this feature on but only if we open it with a right-click and choose “Source Code Editor” (instead of a typical double-click on the .axml file). This way we enable auto-complete only on the attributes (but not on their values).&lt;/p&gt;
+&lt;p&gt;However, opening it with “Source Code Editor” removes the “Design” tab. That makes it necessary to double-click the file (again) to access and view the result.&lt;/p&gt;
+&lt;p&gt;This means that double clicking the file enables us to access the design tab and the source tab without auto-complete. Opening with “Source Code Editor” provides us with auto-complete but without the design tab. This did not appear as productive to me&amp;hellip;&lt;/p&gt;
+&lt;p&gt;Then my co-workers suggested me an interesting solution. We shall use Android Studio (or IntelliJ) to develop the layouts, (taking advantage of the awesome “preview” tab that enables us to edit a layout file and looking at the results in real time) and then copy the above to xamarin studio, since those XML files are defined with the same rules and definitions.&lt;/p&gt;
+&lt;p&gt;Of course, keeping both IDEs opened together with chrome and other apps at the same time, demands at least a system with 8GB of RAM so that the development is prompt and possible at all.&lt;/p&gt;
+&lt;h2 id=&#34;hum-ok-is-there-anything-more-that-we-should-learn&#34;&gt;Hum OK&amp;hellip; Is there anything more that we should learn?&lt;/h2&gt;
+&lt;p&gt;Well yes, there is. If you are thinking about using 3rd party Java libraries (.JAR) or Java projects, then you have several ways to do it:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Converting them manually;&lt;/li&gt;
+&lt;li&gt;Using code converters&lt;/li&gt;
+&lt;li&gt;Using the Java Native Interface;&lt;/li&gt;
+&lt;li&gt;Through a specific library that defines the mapping between Java and C# (Java Binding Library).&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;All these options are well described on Xamarin official website.&lt;/p&gt;
+&lt;h2 id=&#34;wellwith-so-many-problems-is-xamarin-still-worth-it&#34;&gt;Well&amp;hellip;with so many problems is Xamarin still worth it?&lt;/h2&gt;
+&lt;p&gt;This decision can only be made by you. Nevertheless, if you are planning to share code across multiple mobile OSs, then Xamarin seems to be a really good option for me, even with the mentioned limitations in mind, as long as we use it together with Android Studio/IntelliJ to design the layouts :P&lt;/p&gt;
+&lt;p&gt;That is all for today. In the following weeks, I am going to write another blog post. This time enriched by a greater experience with Xamarin. So shall we keep in touch? :)&lt;/p&gt;
+&lt;h2 id=&#34;update-22062014&#34;&gt;Update (22/06/2014)&lt;/h2&gt;
+&lt;p&gt;With Visual Studio 2013 (12.0 update 2 at least) and the Xamarin plug-in everything seems to work well! No weird crashes, the logging works perfectly and additionally it has got an intellisense for C# code, which Xamarin Studio hasn’t got. I had been using Visual Studio 11 by the time I had written this post so maybe there was some problem with it.&lt;/p&gt;
+&lt;p&gt;From now on, I would recommend Visual Studio 12 and Android Studio.&lt;/p&gt;
+</description>
+    </item>
+    
+  </channel>
+</rss>
