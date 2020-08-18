@@ -1,6 +1,6 @@
 +++
 title = "Xamarin First Impressions"
-date = 2014-04-10T10:30:11+01:00
+date = 2014-04-10
 author = "fmendes6"
 draft = false
 +++
