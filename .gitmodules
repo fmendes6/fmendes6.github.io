@@ -1,7 +1,0 @@
-[submodule "themes/bento"]
-	path = themes/bento
-	url = https://github.com/leonardofaria/bento.git
-[submodule "public"]
-	path = public
-	url = https://github.com/fmendes6/fmendes6.github.io.git
-	branch = master
