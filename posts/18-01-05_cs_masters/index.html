@@ -6,18 +6,18 @@
   <meta property="og:locale" content="en">
   <meta name="language" content="en">
   
-  <title itemprop="name">Machine Learning with Firebase </title>
-  <meta property="og:title" content="Machine Learning with Firebase &middot; Filipe Mendes" />
-  <meta name="twitter:title" content="Machine Learning with Firebase &middot; Filipe Mendes" />
-  <meta itemprop="name" content="Machine Learning with Firebase &middot; Filipe Mendes" />
+  <title itemprop="name">My take on a computer science MSc degree </title>
+  <meta property="og:title" content="My take on a computer science MSc degree &middot; Filipe Mendes" />
+  <meta name="twitter:title" content="My take on a computer science MSc degree &middot; Filipe Mendes" />
+  <meta itemprop="name" content="My take on a computer science MSc degree &middot; Filipe Mendes" />
   <meta name="application-name" content="Filipe Mendes" />
   <meta property="og:site_name" content="Filipe Mendes" />
   
-  <base href="https://fmendes6.com/posts/20-01-09_mlkit/">
-  <link rel="canonical" href="https://fmendes6.com/posts/20-01-09_mlkit/" itemprop="url" />
-  <meta name="url" content="https://fmendes6.com/posts/20-01-09_mlkit/" />
-  <meta name="twitter:url" content="https://fmendes6.com/posts/20-01-09_mlkit/" />
-  <meta property="og:url" content="https://fmendes6.com/posts/20-01-09_mlkit/" />
+  <base href="https://fmendes6.com/posts/18-01-05_cs_masters/">
+  <link rel="canonical" href="https://fmendes6.com/posts/18-01-05_cs_masters/" itemprop="url" />
+  <meta name="url" content="https://fmendes6.com/posts/18-01-05_cs_masters/" />
+  <meta name="twitter:url" content="https://fmendes6.com/posts/18-01-05_cs_masters/" />
+  <meta property="og:url" content="https://fmendes6.com/posts/18-01-05_cs_masters/" />
   
   
     
@@ -31,20 +31,20 @@
   
   
     <meta property="og:type" content="article" />
-    <meta itemprop="description" content="It’s undeniable the spotlight that machine learning has been having in the past years, with major companies like Google taking advantage of it, or even claiming" />
-    <meta property="og:description" content="It’s undeniable the spotlight that machine learning has been having in the past years, with major companies like Google taking advantage of it, or even claiming" />
-    <meta name="description" content="It’s undeniable the spotlight that machine learning has been having in the past years, with major companies like Google taking advantage of it, or even claiming" />
-    <meta name="twitter:description" content="It’s undeniable the spotlight that machine learning has been having in the past years, with major companies like Google taking advantage of it, or even claiming" />
-    <meta property="article:published_time" content="2020-01-09T00:00:00Z" />
+    <meta itemprop="description" content="“I don’t like to buy expensive stuff but I love options. I like to know I can buy a Maybach but I just decide I don’t want one. I like to know I can buy a Bentl" />
+    <meta property="og:description" content="“I don’t like to buy expensive stuff but I love options. I like to know I can buy a Maybach but I just decide I don’t want one. I like to know I can buy a Bentl" />
+    <meta name="description" content="“I don’t like to buy expensive stuff but I love options. I like to know I can buy a Maybach but I just decide I don’t want one. I like to know I can buy a Bentl" />
+    <meta name="twitter:description" content="“I don’t like to buy expensive stuff but I love options. I like to know I can buy a Maybach but I just decide I don’t want one. I like to know I can buy a Bentl" />
+    <meta property="article:published_time" content="2018-01-05T10:30:11&#43;01:00" />
     <meta name="twitter:label1" value="Reading time" />
     
-      <meta name="twitter:data1" value="5 minutes" />
+      <meta name="twitter:data1" value="6 minutes" />
     
 
     
   
 
-  <meta property="og:updated_time" content=2020-01-09T00:00:00Z />
+  <meta property="og:updated_time" content=2018-01-05T10:30:11&#43;0100 />
 
   
 
@@ -199,66 +199,51 @@
 <div id="reading-progress-bar" role="presentation" class="fixed z-10 top-0 left-0 h-1 bg-gray-700"></div>
 
 <article class="article">
-    <h1 class="artitle__title"><a href="https://fmendes6.com/posts/20-01-09_mlkit/">Machine Learning with Firebase</a></h1>
+    <h1 class="artitle__title"><a href="https://fmendes6.com/posts/18-01-05_cs_masters/">My take on a computer science MSc degree</a></h1>
 
     
       <header class="article__header">
         
         <span class="">
-          Read in 5 minutes &middot;
-          <time datetime="2020-01-09T00:00:00&#43;00:00">
-            9 Jan, 2020
+          Read in 6 minutes &middot;
+          <time datetime="2018-01-05T10:30:11&#43;01:00">
+            5 Jan, 2018
           </time>
         </span>
       </header>
     
 
     <div class="py-5">
-      <p>It’s undeniable the spotlight that machine learning has been having in the past years, with major companies like Google taking advantage of it, or even claiming, that it is at the center of their products.</p>
-<p>The amount of quality data gathered, as well as the domains it covers, will determine which companies of today will dominate the world in the next decade. This requires them to ship products with ML but also to provide tools for 3rd-party developers to adopt.</p>
-<p>Even though regulations forbid them to use personally identifiable data gathered by developers, companies will benefit from massive amounts of anonymous statistics that only a world-wide usage can provide, which will be used to improve their learning algorithms and products in the long run.</p>
-<h2 id="mlkit">MLKit</h2>
-<p>Announced at Google IO 2018 and as part of Firebase, MLKit is one of those tools that aims to democratize the access to ML by letting developers process data on the device or the cloud through the use of a simple set of APIs. These include:</p>
-<ul>
-<li><a href="https://firebase.google.com/docs/ml-kit/recognize-text">Text recognition</a></li>
-<li><a href="https://firebase.google.com/docs/ml-kit/detect-faces">Face Detection</a></li>
-<li><a href="https://firebase.google.com/docs/ml-kit/label-images">Image labeling</a></li>
-<li><a href="https://firebase.google.com/docs/ml-kit/read-barcodes">Barcode scanner</a></li>
-<li><a href="https://firebase.google.com/docs/ml-kit/identify-languages">Natural language processing</a></li>
-</ul>
-<p>It is possible to add a custom image interpreter or shape detector for more fine-grained control but this comes with a considerable cost, as it will require a lot more work to implement and less support and documentation to resort too.</p>
-<h2 id="project">Project</h2>
-<p>Creating a custom model on firebase and using MLKit on the mobile apps for detection, appeared to be a good alternative for those who want a specific solution but without a big implementation cost.</p>
-<p>In a team of three as part of a Hackaton, a prototype was created that would take a picture of a skin mole and use MLKit to process and detect signs of skin diseases. This was achieved by first downloading a public dataset of pictures containing skin moles, labeled with their corresponding diseases and then uploading them to firebase which creates and trains a model and then generates a <code>.tflite</code> file.</p>
-<p><img src="/images/20-01-09_mlkit.png" alt="ML Kit project"></p>
-<p>Next, the mobile application selects an image, either by choosing from the gallery or by taking a picture and then processes it with MLKit against the provided model resulting in a set of confidence levels for each provided label, for example:</p>
-<ul>
-<li>Melanoma - 95%</li>
-<li>Benign Keratosis - 10%</li>
-<li>Dermatofibroma - 5%</li>
-</ul>
-<h2 id="thoughts">Thoughts</h2>
-<p>Developing a custom model for a specific problem (analysing skin moles) proved to be an interesting challenge because the domain was outside of the 400 provided categories by MLKit’s image labeling capabilities.</p>
-<p>Creating a model on firebase required us to make a trade-off between latency and file size of the model versus its accuracy, with the general plan taking an hour and a half to train around 6322 pictures and generating a 3.2mb <code>.tflite</code> model file. As a reference and according to the estimations, training a model with the <em>Higher Accuracy</em> plan would take around 6 hours.</p>
-<p>Even though the creation, integration, and use of a custom model in an android app took no longer than half a day on a first try, if we wanted to have a custom shape detector for the app to focus solely on the moles and ignore the rest of the picture, it would be a much bigger challenge due to the very limited existing documentation.</p>
-<p>One colleague of mine managed to get it working by following a (long) <a href="https://medium.com/tensorflow/training-and-serving-a-realtime-mobile-object-detector-in-30-minutes-with-cloud-tpus-b78971cf1193">tutorial</a> that promised to <em>&ldquo;create a mobile object detector in 30 minutes&rdquo;</em> but which took almost 3 days to complete due to incorrect shell commands, TPUs not running as expected and much more.</p>
-<p>Having explored only the image labeling capabilities of MLKit, the library seems powerful and relatively easy to use for general purposes or proofs-of-concept but be prepared if you need to develop a very custom or data critical application.</p>
-<p>Finally, if you plan on using cloud TPUs (tensor processing units) on a trial plan, make sure you turn them off after the use to avoid unnecessary and costly surprises.</p>
-<h3 id="qa">QA</h3>
-<p><strong>Attila Blénesi</strong> (<a href="www.twitter.com/@ablenessy">@ablenessy</a>)<br>
-<strong>Android Developer</strong> at <em>Babylon Health</em></p>
-<p><strong>1. How do you see the emergence of AI in the software industry?</strong><br>
-AI has been a topic for decades, the accesability of compute and data in the past decades enable the topic to boom. Currently the democratisation of AI tools and resources will dominate the next decade, in my opinion.</p>
-<p><strong>2. Tell us about any experience you had with machine learning.</strong><br>
-I have been working with on-device machine learning on Android for the past few years, focusing on the integration of off the shelf (Vision &amp; object detection) and custom (GAN - Pix to pix) models. Had gone through struggles and sweat in the first stages when TensorFlow Lite was announced, but now the developer experience is much more streamlined. Just in the past year, advances that enable more and more devs to implement features with ease.</p>
-<p><strong>3. Would you consider MLKit as a core library of a project?</strong><br>
-Definitely yes, If there is a user need that their offerings vision and language custom AI can solve, it cuts down the development process significantly. Enables developers to focus on crafting the user experience, handing over the model deployment, and inference execution to MLKit that provides you with easy to use API&rsquo;s, using state of the art solutions, best practices in the background.</p>
-<h2 id="resources">Resources</h2>
-<ul>
-<li><a href="https://firebase.google.com/docs/ml-kit">ML Kit</a> by Firebase</li>
-<li><a href="https://github.com/firebase/mlkit-material-android">ML Kit Showcase with Material Design</a> by Firebase</li>
-<li><a href="https://medium.com/tensorflow/training-and-serving-a-realtime-mobile-object-detector-in-30-minutes-with-cloud-tpus-b78971cf1193"><em>&ldquo;Create a mobile shape detector in 30 minutes&rdquo;</em></a> by TensorFlow</li>
-</ul>
+      <blockquote>
+<p>“I don’t like to buy expensive stuff but I love options. I like to know I can buy a Maybach but I just decide I don’t want one. I like to know I can buy a Bentley if I want, I just don’t want one.” — Eric Thomas</p>
+</blockquote>
+<p>2004 and I, as most of my colleagues, had finished my bachelor degree. As our home faculty focuses more on a practical side of studying, by structuring the programme in a way that in 3 years, any student would be ready to hit the market, we all joined companies as soon as we finished the degree.</p>
+<p>One year into my professional career and I started realising that having a masters degree was quickly becoming the norm. More and more colleagues, had a higher degree than I did, and even though they didn’t have an advantage over me until then, as my previous jobs and projects didn’t require one, I couldn’t predict if they would have in the years to come.</p>
+<p>Moreover, a few decades ago whoever had a college degree, was already seen as someone with a higher status, smarter and with an expected better future when compared to most people. That used to happen exactly because of the scarcity of people with a college degree. Now if you think a bit further, I would ask you to imagine having a new colleague in your current job, with a PhD. Chances are, you would be impressed. And I would be as well.</p>
+<p>This happens, not only due to the lack of IT professionals with a PhD in our field but also because it is a sign of hard work, long-term commitment of getting an extra 4-year degree and for pushing the boundaries of human knowledge, even though you don’t know if his PhD will have any significant impact on the project you two are working on.</p>
+<p>Plus, I was 25 years old and my willingness to study in a minimum of 2 year commitment programme was lessening by the year, especially in a field where things change dramatically in a short period of time.</p>
+<p>So I either started then, or I wouldn’t start at all. Having remembered what once a professor told to a colleague of mine, that “education is the only investment with 100% return guaranteed” I decided to apply and started it.</p>
+<h2 id="two-years-later">Two years later</h2>
+<p>Fast forward until the end of my masters and some of my ex-colleagues have an average salary for their experience by working for consulting companies, and others work at amazing companies and startups, getting salaries and professional perks that the average IT Senior in Portugal can’t get. So a masters degree (and up to a point even a bachelor) is definitely not necessary to earn a good or great salary.</p>
+<p>On top of that, a lot of startups and multinational companies still don’t seem to consider a masters degree a critical factor, even though there are still some who require it in specific areas when regarding research or innovation job positions.</p>
+<p>Moreover, along the years when talking with someone with a bachelor or masters degree, I haven’t noticed a big knowledge gap (if any at all) between the two groups. This can easily be explained by the fact that bachelor degrees tend to focus more on the basics of computer science, algorithms and software engineering, and masters programmes tend to focus more on a subset of those topics.</p>
+<h2 id="what-about-what-i-learnt">What about what I learnt?</h2>
+<p>A masters degree wasn’t so impactful in my professional life as my bachelors was but I still learnt a lot in this degree. I was exposed to languages and tools that I doubt I would ever be if I didn’t apply for a Masters degree.
+It is always good to learn about topics that even if they are not your main interests, may be useful in the future, as you will already know where to start if you need to work with them.</p>
+<p>As we all agree in the need of continuous learning in our field, some people consider that today’s educational system is obsolete, or at least is having problems adapting to the sudden change that easy and affordable internet access has introduced. By providing almost instant, and sometimes free, access to different forms of content (ex: books, articles, videos), many students don’t feel the need to attend classes, as teachers and libraries stopped being the only source of information and the same knowledge can be obtained by researching it online.</p>
+<p>That’s where websites like <a href="http://www.coursera.org/">coursera</a>, <a href="http://www.udemy.com/">udemy</a> and <a href="http://www.udacity.com/">udacity</a> come into play. They are interesting in the sense that they provide content in many different forms, costs and topics that universities can’t provide, with the added value of letting the student start when it wants.</p>
+<p>However they are not by any means a substitution to traditional college degrees. Even though they work as a really good complement to the academic life, they don’t provide the same academic background as the former. It’s academic institutions and international educational agreements that are recognised and not a mere course from an online website.</p>
+<h2 id="so-was-it-worth-it">So, was it worth it?</h2>
+<p>It’s hard to say. It will take some years to understand if it was a good investment, both financial as timewise. As what cost me the most, was not the money that I spent (approximately 2k€ for both years of tuition) but the amount of money that I didn’t earn,that with my calculations would be above 20k€ if I kept the same base salary both years, which probably wouldn’t happen.</p>
+<p>But there is something else we tend to forget when we discuss about our field. The public sector. Over the years, state jobs for graduates have been increasing academic requirements. As an example, a recent introduction of an educational reform that forbid teachers without a PhD to lecture, made me witness some of the best teachers I had in my life quit teaching because they didn’t fulfil those academic requirements.</p>
+<p>To conclude, I can’t predict if a masters degree will be crucial in the rest of my professional life, as I may work in places that don’t take it into account.</p>
+<p>But a masters degree definitely gives me more options.</p>
+<p>And I love options.</p>
+<h2 id="side-note">Side note</h2>
+<p>This post focused more on the transition between a bachelor to a masters programme, as I think a bachelor degree is very important in any field. However there are a set of IT professionals that don’t even have that, and it worries me how some of those even introduce themselves proudly, as college dropouts.</p>
+<p>As if dropping out of college would put them in the same level of recognition and personal realisation as Mark Zuckerberg or Bill Gates who early realised that a college degree wouldn’t fulfil their professional needs. It’s important to realize that these people are an exception, not the rule.</p>
+<p>Now, don’t get me wrong. Dropping out of college, can happen for a lot of reasons. From economical needs, to health or family problems, or even if you want to start a new business. Those are all valid counter points that I agree with but quitting school simply to earn money by joining a company, when you don’t have the need to, isn’t one of them. That is simply a sign of laziness and lack of commitment.</p>
+<p><em>Thanks to João Junceira and Marco Talento for reviewing this article.</em></p>
 
     </div>
 
@@ -273,7 +258,7 @@ Definitely yes, If there is a user need that their offerings vision and language
         
         
         
-        <a href="http://twitter.com/share?url=https%3a%2f%2ffmendes6.com%2fposts%2f20-01-09_mlkit%2f&text=Machine%20Learning%20with%20Firebase&via=fmendes6" class="author__share bg-twitter hover:color-white hover:opacity-75">
+        <a href="http://twitter.com/share?url=https%3a%2f%2ffmendes6.com%2fposts%2f18-01-05_cs_masters%2f&text=My%20take%20on%20a%20computer%20science%20MSc%20degree&via=fmendes6" class="author__share bg-twitter hover:color-white hover:opacity-75">
           <svg class="fill-current w-4 h-4 mr-2" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20">
             <title>Twitter</title>
             <path d="M6.29 18.25c7.55 0 11.67-6.25 11.67-11.67v-.53c.8-.59 1.49-1.3 2.04-2.13-.75.33-1.54.55-2.36.65a4.12 4.12 0 0 0 1.8-2.27c-.8.48-1.68.81-2.6 1a4.1 4.1 0 0 0-7 3.74 11.65 11.65 0 0 1-8.45-4.3 4.1 4.1 0 0 0 1.27 5.49C2.01 8.2 1.37 8.03.8 7.7v.05a4.1 4.1 0 0 0 3.3 4.03 4.1 4.1 0 0 1-1.86.07 4.1 4.1 0 0 0 3.83 2.85A8.23 8.23 0 0 1 0 16.4a11.62 11.62 0 0 0 6.29 1.84"></path>

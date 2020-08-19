@@ -6,18 +6,18 @@
   <meta property="og:locale" content="en">
   <meta name="language" content="en">
   
-  <title itemprop="name">Machine Learning with Firebase </title>
-  <meta property="og:title" content="Machine Learning with Firebase &middot; Filipe Mendes" />
-  <meta name="twitter:title" content="Machine Learning with Firebase &middot; Filipe Mendes" />
-  <meta itemprop="name" content="Machine Learning with Firebase &middot; Filipe Mendes" />
+  <title itemprop="name">Why teaching makes us better developers </title>
+  <meta property="og:title" content="Why teaching makes us better developers &middot; Filipe Mendes" />
+  <meta name="twitter:title" content="Why teaching makes us better developers &middot; Filipe Mendes" />
+  <meta itemprop="name" content="Why teaching makes us better developers &middot; Filipe Mendes" />
   <meta name="application-name" content="Filipe Mendes" />
   <meta property="og:site_name" content="Filipe Mendes" />
   
-  <base href="https://fmendes6.com/posts/20-01-09_mlkit/">
-  <link rel="canonical" href="https://fmendes6.com/posts/20-01-09_mlkit/" itemprop="url" />
-  <meta name="url" content="https://fmendes6.com/posts/20-01-09_mlkit/" />
-  <meta name="twitter:url" content="https://fmendes6.com/posts/20-01-09_mlkit/" />
-  <meta property="og:url" content="https://fmendes6.com/posts/20-01-09_mlkit/" />
+  <base href="https://fmendes6.com/posts/15-01-23_teaching/">
+  <link rel="canonical" href="https://fmendes6.com/posts/15-01-23_teaching/" itemprop="url" />
+  <meta name="url" content="https://fmendes6.com/posts/15-01-23_teaching/" />
+  <meta name="twitter:url" content="https://fmendes6.com/posts/15-01-23_teaching/" />
+  <meta property="og:url" content="https://fmendes6.com/posts/15-01-23_teaching/" />
   
   
     
@@ -31,11 +31,11 @@
   
   
     <meta property="og:type" content="article" />
-    <meta itemprop="description" content="It’s undeniable the spotlight that machine learning has been having in the past years, with major companies like Google taking advantage of it, or even claiming" />
-    <meta property="og:description" content="It’s undeniable the spotlight that machine learning has been having in the past years, with major companies like Google taking advantage of it, or even claiming" />
-    <meta name="description" content="It’s undeniable the spotlight that machine learning has been having in the past years, with major companies like Google taking advantage of it, or even claiming" />
-    <meta name="twitter:description" content="It’s undeniable the spotlight that machine learning has been having in the past years, with major companies like Google taking advantage of it, or even claiming" />
-    <meta property="article:published_time" content="2020-01-09T00:00:00Z" />
+    <meta itemprop="description" content="Two months ago during one of my normal days at the office I was told that there was a private school looking for android developers that were available to teach" />
+    <meta property="og:description" content="Two months ago during one of my normal days at the office I was told that there was a private school looking for android developers that were available to teach" />
+    <meta name="description" content="Two months ago during one of my normal days at the office I was told that there was a private school looking for android developers that were available to teach" />
+    <meta name="twitter:description" content="Two months ago during one of my normal days at the office I was told that there was a private school looking for android developers that were available to teach" />
+    <meta property="article:published_time" content="2015-01-23T10:30:11&#43;01:00" />
     <meta name="twitter:label1" value="Reading time" />
     
       <meta name="twitter:data1" value="5 minutes" />
@@ -44,7 +44,7 @@
     
   
 
-  <meta property="og:updated_time" content=2020-01-09T00:00:00Z />
+  <meta property="og:updated_time" content=2015-01-23T10:30:11&#43;0100 />
 
   
 
@@ -199,66 +199,41 @@
 <div id="reading-progress-bar" role="presentation" class="fixed z-10 top-0 left-0 h-1 bg-gray-700"></div>
 
 <article class="article">
-    <h1 class="artitle__title"><a href="https://fmendes6.com/posts/20-01-09_mlkit/">Machine Learning with Firebase</a></h1>
+    <h1 class="artitle__title"><a href="https://fmendes6.com/posts/15-01-23_teaching/">Why teaching makes us better developers</a></h1>
 
     
       <header class="article__header">
         
         <span class="">
           Read in 5 minutes &middot;
-          <time datetime="2020-01-09T00:00:00&#43;00:00">
-            9 Jan, 2020
+          <time datetime="2015-01-23T10:30:11&#43;01:00">
+            23 Jan, 2015
           </time>
         </span>
       </header>
     
 
     <div class="py-5">
-      <p>It’s undeniable the spotlight that machine learning has been having in the past years, with major companies like Google taking advantage of it, or even claiming, that it is at the center of their products.</p>
-<p>The amount of quality data gathered, as well as the domains it covers, will determine which companies of today will dominate the world in the next decade. This requires them to ship products with ML but also to provide tools for 3rd-party developers to adopt.</p>
-<p>Even though regulations forbid them to use personally identifiable data gathered by developers, companies will benefit from massive amounts of anonymous statistics that only a world-wide usage can provide, which will be used to improve their learning algorithms and products in the long run.</p>
-<h2 id="mlkit">MLKit</h2>
-<p>Announced at Google IO 2018 and as part of Firebase, MLKit is one of those tools that aims to democratize the access to ML by letting developers process data on the device or the cloud through the use of a simple set of APIs. These include:</p>
-<ul>
-<li><a href="https://firebase.google.com/docs/ml-kit/recognize-text">Text recognition</a></li>
-<li><a href="https://firebase.google.com/docs/ml-kit/detect-faces">Face Detection</a></li>
-<li><a href="https://firebase.google.com/docs/ml-kit/label-images">Image labeling</a></li>
-<li><a href="https://firebase.google.com/docs/ml-kit/read-barcodes">Barcode scanner</a></li>
-<li><a href="https://firebase.google.com/docs/ml-kit/identify-languages">Natural language processing</a></li>
-</ul>
-<p>It is possible to add a custom image interpreter or shape detector for more fine-grained control but this comes with a considerable cost, as it will require a lot more work to implement and less support and documentation to resort too.</p>
-<h2 id="project">Project</h2>
-<p>Creating a custom model on firebase and using MLKit on the mobile apps for detection, appeared to be a good alternative for those who want a specific solution but without a big implementation cost.</p>
-<p>In a team of three as part of a Hackaton, a prototype was created that would take a picture of a skin mole and use MLKit to process and detect signs of skin diseases. This was achieved by first downloading a public dataset of pictures containing skin moles, labeled with their corresponding diseases and then uploading them to firebase which creates and trains a model and then generates a <code>.tflite</code> file.</p>
-<p><img src="/images/20-01-09_mlkit.png" alt="ML Kit project"></p>
-<p>Next, the mobile application selects an image, either by choosing from the gallery or by taking a picture and then processes it with MLKit against the provided model resulting in a set of confidence levels for each provided label, for example:</p>
-<ul>
-<li>Melanoma - 95%</li>
-<li>Benign Keratosis - 10%</li>
-<li>Dermatofibroma - 5%</li>
-</ul>
-<h2 id="thoughts">Thoughts</h2>
-<p>Developing a custom model for a specific problem (analysing skin moles) proved to be an interesting challenge because the domain was outside of the 400 provided categories by MLKit’s image labeling capabilities.</p>
-<p>Creating a model on firebase required us to make a trade-off between latency and file size of the model versus its accuracy, with the general plan taking an hour and a half to train around 6322 pictures and generating a 3.2mb <code>.tflite</code> model file. As a reference and according to the estimations, training a model with the <em>Higher Accuracy</em> plan would take around 6 hours.</p>
-<p>Even though the creation, integration, and use of a custom model in an android app took no longer than half a day on a first try, if we wanted to have a custom shape detector for the app to focus solely on the moles and ignore the rest of the picture, it would be a much bigger challenge due to the very limited existing documentation.</p>
-<p>One colleague of mine managed to get it working by following a (long) <a href="https://medium.com/tensorflow/training-and-serving-a-realtime-mobile-object-detector-in-30-minutes-with-cloud-tpus-b78971cf1193">tutorial</a> that promised to <em>&ldquo;create a mobile object detector in 30 minutes&rdquo;</em> but which took almost 3 days to complete due to incorrect shell commands, TPUs not running as expected and much more.</p>
-<p>Having explored only the image labeling capabilities of MLKit, the library seems powerful and relatively easy to use for general purposes or proofs-of-concept but be prepared if you need to develop a very custom or data critical application.</p>
-<p>Finally, if you plan on using cloud TPUs (tensor processing units) on a trial plan, make sure you turn them off after the use to avoid unnecessary and costly surprises.</p>
-<h3 id="qa">QA</h3>
-<p><strong>Attila Blénesi</strong> (<a href="www.twitter.com/@ablenessy">@ablenessy</a>)<br>
-<strong>Android Developer</strong> at <em>Babylon Health</em></p>
-<p><strong>1. How do you see the emergence of AI in the software industry?</strong><br>
-AI has been a topic for decades, the accesability of compute and data in the past decades enable the topic to boom. Currently the democratisation of AI tools and resources will dominate the next decade, in my opinion.</p>
-<p><strong>2. Tell us about any experience you had with machine learning.</strong><br>
-I have been working with on-device machine learning on Android for the past few years, focusing on the integration of off the shelf (Vision &amp; object detection) and custom (GAN - Pix to pix) models. Had gone through struggles and sweat in the first stages when TensorFlow Lite was announced, but now the developer experience is much more streamlined. Just in the past year, advances that enable more and more devs to implement features with ease.</p>
-<p><strong>3. Would you consider MLKit as a core library of a project?</strong><br>
-Definitely yes, If there is a user need that their offerings vision and language custom AI can solve, it cuts down the development process significantly. Enables developers to focus on crafting the user experience, handing over the model deployment, and inference execution to MLKit that provides you with easy to use API&rsquo;s, using state of the art solutions, best practices in the background.</p>
-<h2 id="resources">Resources</h2>
-<ul>
-<li><a href="https://firebase.google.com/docs/ml-kit">ML Kit</a> by Firebase</li>
-<li><a href="https://github.com/firebase/mlkit-material-android">ML Kit Showcase with Material Design</a> by Firebase</li>
-<li><a href="https://medium.com/tensorflow/training-and-serving-a-realtime-mobile-object-detector-in-30-minutes-with-cloud-tpus-b78971cf1193"><em>&ldquo;Create a mobile shape detector in 30 minutes&rdquo;</em></a> by TensorFlow</li>
-</ul>
+      <p>Two months ago during one of my normal days at the office I was told that there was a private school looking for android developers that were available to teach. That school needed someone for 3 times a week (for a 66 hour course) and my boss asked me if I wanted to take the opportunity. The course consisted in a 24h Java introduction, 24h for Android and 18h for a project.</p>
+<p>I was caught off guard. I always enjoyed doing what I do but teaching it to somebody else? As someone that suffers from the <a href="https://medium.com/@aliciatweet/overcoming-impostor-syndrome-bdae04e46ec5">imposter syndrome</a>, I often asked myself if I was really adequate to teach someone, even let alone a whole classroom. I wasn&rsquo;t sure if I had taken the right decision but I decided to take the risk and challenge myself.</p>
+<h2 id="java-module-first-weeks">Java Module (First weeks)</h2>
+<p>Those first days when you meet the students (in my case, I had 6) and they are reluctant to talk to You are crucial. If you manage to gain their trust, the class is yours. However, it’s easier said than done.</p>
+<p>The first lesson was horrible. I finished all my slides in 30 mins when they should had lasted at least double that time. Fortunately the breaks were a bit longer than what I expected so it all turned out to be fine but it made me realize how badly prepared materials can ruin a lesson.</p>
+<p>From that day on, the lessons started to get better for several reasons. I managed to spend more time doing practical exercises than reading slides. By doing exercises on lessons, I was distributing the time more efficiently and at the same time, making sure that the students are learning the fundamental concepts as well as helping them and building a professional relationship with each one.</p>
+<h2 id="android-module">Android Module</h2>
+<p>Since the moment I was invited to teach the course, I was very concerned about the transition between the Java Module and the Android Module. Almost all of my students had no previous professional experience so while teaching 24 hours of Java was ok, jumping to a framework as powerful as the android (that is constantly evolving) would be too hard for the students so I had to make sure this transition was as smooth as possible.</p>
+<p>However, everything changed in the first lesson. Three new students shown up with a much higher knowledge background (because they had professional experience), resulting in a big knowledge gap between them and the other students which made this module the hardest one to prepare.</p>
+<p>I had to make a decision at this point, I could either prepare the course with more materials in a shorter time for it to be challenging for the new students or I could only teach the very basic to make the lessons more accessible to the big group. Given the circumstances, I decided for the first option because I realized that I could take advantage of the Project Module to correct and re-teach some of the topics (if necessary) to the bigger group. Since I had to prepare the lessons, I decided to re-read most of android’s documentation that I hadn’t read since I started to learn it at the university.</p>
+<p>This turned out to be a better exercise than I thought because the documentation had been updated with new API’s, deprecated methods and tutorials were (and still are) better than before.
+Another thing that I liked was that by preparing examples for my students, I learnt about how some components can be a better choice in terms of performance when comparing to others (ex: differences between ViewGroups) which made me rethink some of my development choices nowadays.</p>
+<h2 id="final-project">Final Project</h2>
+<p>In this last module, I had two options. I could either ask the students to develop any app they wanted or make them develop an app that I wanted. I chose the latter because this way I could make them use almost all the components I taught in classes while making sure everyone had the same goals, tasks and starting points.</p>
+<p>However, I was surprised to see that some of the students were in a worse condition than I thought due to the difficulty of the last module. At this point, I had no other option than helping them more than I was supposed to. Despite that, some of the students were still able to develop autonomously and discuss abstract solutions with me, which made me genuinely happy.</p>
+<p>Moreover, reading the final project’s report from one of the students and noticing that he added more functionalities and components he thought were needed was really important because it shows that he took the time to develop the application with everything he considered necessary instead of just doing the obligatory. Seeing someone develop an android application when one month and a half before couldn’t understand a java file, was the most rewarding thing to me as a teacher.</p>
+<h2 id="conclusion">Conclusion</h2>
+<p>If there is any advicesI can give to anyone is that if you promptly answer the students questions/emails and help them when they need, students give you more room to make a mistake, as long as you recognize and correct it as soon as possible. Don’t be afraid to listen to them because even if You don&rsquo;t have the right answer, the fact that you take the time to help them is enough to keep their attention and enthusiasm.</p>
+<p>Moreover, very often students get discouraged when they see us, developers, implement simple and fast solutions to their problems. It’s very important (if not mandatory) to make them understand that we were once like them and nobody is born with experience.</p>
+<p>As a final note, I have to say that it was a great experience that I recommend to everyone. Even if you are not teaching at a school, you can always do some small sessions in your office with your colleagues about newly created API’s , tools, etc. and you will realize that by helping others you are actually helping yourself.</p>
 
     </div>
 
@@ -273,7 +248,7 @@ Definitely yes, If there is a user need that their offerings vision and language
         
         
         
-        <a href="http://twitter.com/share?url=https%3a%2f%2ffmendes6.com%2fposts%2f20-01-09_mlkit%2f&text=Machine%20Learning%20with%20Firebase&via=fmendes6" class="author__share bg-twitter hover:color-white hover:opacity-75">
+        <a href="http://twitter.com/share?url=https%3a%2f%2ffmendes6.com%2fposts%2f15-01-23_teaching%2f&text=Why%20teaching%20makes%20us%20better%20developers&via=fmendes6" class="author__share bg-twitter hover:color-white hover:opacity-75">
           <svg class="fill-current w-4 h-4 mr-2" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20">
             <title>Twitter</title>
             <path d="M6.29 18.25c7.55 0 11.67-6.25 11.67-11.67v-.53c.8-.59 1.49-1.3 2.04-2.13-.75.33-1.54.55-2.36.65a4.12 4.12 0 0 0 1.8-2.27c-.8.48-1.68.81-2.6 1a4.1 4.1 0 0 0-7 3.74 11.65 11.65 0 0 1-8.45-4.3 4.1 4.1 0 0 0 1.27 5.49C2.01 8.2 1.37 8.03.8 7.7v.05a4.1 4.1 0 0 0 3.3 4.03 4.1 4.1 0 0 1-1.86.07 4.1 4.1 0 0 0 3.83 2.85A8.23 8.23 0 0 1 0 16.4a11.62 11.62 0 0 0 6.29 1.84"></path>
