@@ -98,10 +98,8 @@
 &lt;/ul&gt;
 &lt;p&gt;With these considerations in mind, some of the use cases I envision for this document would be the following:&lt;/p&gt;
 &lt;blockquote&gt;
-&lt;p&gt;As an Android developer, I want to know what my Android colleagues are working on and how to use the feature.&lt;/p&gt;
-&lt;/blockquote&gt;
-&lt;blockquote&gt;
-&lt;p&gt;As a team lead, I want to know what is the roadmap of the teams I am leading (or others) during a meeting, as well as, how the data is flowing between platforms.&lt;/p&gt;
+&lt;p&gt;As an Android developer, I want to know what my Android colleagues are working on and how to use the feature.
+As a team lead, I want to know what is the roadmap of the teams I am leading (or others) during a meeting, as well as, how the data is flowing between platforms.&lt;/p&gt;
 &lt;/blockquote&gt;
 &lt;p&gt;For these scenarios and considerations, I have come up with the following document structure and a template (&lt;a href=&#34;https://gist.github.com/fmendes6/51961e330f1766e5f4020de4e27a5d3e&#34;&gt;see here&lt;/a&gt;) that I use:&lt;/p&gt;
 &lt;ol&gt;
@@ -110,10 +108,7 @@
 &lt;li&gt;&lt;strong&gt;Roadmap&lt;/strong&gt; - Which release version was the feature first included in.&lt;/li&gt;
 &lt;li&gt;&lt;strong&gt;Team&lt;/strong&gt; - Who worked on the feature.&lt;/li&gt;
 &lt;li&gt;&lt;strong&gt;Architecture overview&lt;/strong&gt; - A brief overview of the data flow, how it is architected at a very high level.&lt;/li&gt;
-&lt;li&gt;&lt;strong&gt;Strategies&lt;/strong&gt;
-1. Tracking
-2. Localisation
-3. Content&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Strategies&lt;/strong&gt; - With a tracking, localisation and content subsections.&lt;/li&gt;
 &lt;li&gt;&lt;strong&gt;Resources&lt;/strong&gt; - With links to other documents and platforms.&lt;/li&gt;
 &lt;/ol&gt;
 &lt;p&gt;Keep in mind that this template is merely a guideline, so make sure you adapt it to your context.&lt;/p&gt;
@@ -272,7 +267,7 @@ Regarding online courses, I can’t think about any format being missing. I thin
 &lt;h2 id=&#34;resources&#34;&gt;Resources&lt;/h2&gt;
 &lt;ul&gt;
 &lt;li&gt;&lt;a href=&#34;https://www.investopedia.com/articles/investing/042815/how-coursera-works-makes-money.asp&#34;&gt;How Coursera Makes Money&lt;/a&gt; by Investopedia&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;https://www.owler.com/company/udacity&#34;&gt;Udacity Competitors, Revenue and Employees &lt;/a&gt; by Owler&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://www.owler.com/company/udacity&#34;&gt;Udacity Competitors, Revenue and Employees&lt;/a&gt; by Owler&lt;/li&gt;
 &lt;li&gt;&lt;a href=&#34;https://www.classcentral.com/report/udacity-2019-year-review/&#34;&gt;Udacity’s 2019: Year in Review&lt;/a&gt; by Class Central&lt;/li&gt;
 &lt;li&gt;&lt;a href=&#34;https://www.classcentral.com/report/coursera-2019-year-review/&#34;&gt;Coursera’s 2019: Year in Review&lt;/a&gt; by Class Central&lt;/li&gt;
 &lt;li&gt;&lt;a href=&#34;https://www.coursera.org/specializations/michiganux&#34;&gt;User Experience Research and Design&lt;/a&gt; by Coursera&lt;/li&gt;
@@ -530,13 +525,13 @@ Definitely yes, If there is a user need that their offerings vision and language
 &lt;p&gt;Fast forward until the end of my masters and some of my ex-colleagues have an average salary for their experience by working for consulting companies, and others work at amazing companies and startups, getting salaries and professional perks that the average IT Senior in Portugal can’t get. So a masters degree (and up to a point even a bachelor) is definitely not necessary to earn a good or great salary.&lt;/p&gt;
 &lt;p&gt;On top of that, a lot of startups and multinational companies still don’t seem to consider a masters degree a critical factor, even though there are still some who require it in specific areas when regarding research or innovation job positions.&lt;/p&gt;
 &lt;p&gt;Moreover, along the years when talking with someone with a bachelor or masters degree, I haven’t noticed a big knowledge gap (if any at all) between the two groups. This can easily be explained by the fact that bachelor degrees tend to focus more on the basics of computer science, algorithms and software engineering, and masters programmes tend to focus more on a subset of those topics.&lt;/p&gt;
-&lt;h2 id=&#34;what-about-what-i-learnt&#34;&gt;What about what I learnt?&lt;/h2&gt;
+&lt;h2 id=&#34;what-about-what-i-learnt&#34;&gt;What about what I learnt&lt;/h2&gt;
 &lt;p&gt;A masters degree wasn’t so impactful in my professional life as my bachelors was but I still learnt a lot in this degree. I was exposed to languages and tools that I doubt I would ever be if I didn’t apply for a Masters degree.
 It is always good to learn about topics that even if they are not your main interests, may be useful in the future, as you will already know where to start if you need to work with them.&lt;/p&gt;
 &lt;p&gt;As we all agree in the need of continuous learning in our field, some people consider that today’s educational system is obsolete, or at least is having problems adapting to the sudden change that easy and affordable internet access has introduced. By providing almost instant, and sometimes free, access to different forms of content (ex: books, articles, videos), many students don’t feel the need to attend classes, as teachers and libraries stopped being the only source of information and the same knowledge can be obtained by researching it online.&lt;/p&gt;
 &lt;p&gt;That’s where websites like &lt;a href=&#34;http://www.coursera.org/&#34;&gt;coursera&lt;/a&gt;, &lt;a href=&#34;http://www.udemy.com/&#34;&gt;udemy&lt;/a&gt; and &lt;a href=&#34;http://www.udacity.com/&#34;&gt;udacity&lt;/a&gt; come into play. They are interesting in the sense that they provide content in many different forms, costs and topics that universities can’t provide, with the added value of letting the student start when it wants.&lt;/p&gt;
 &lt;p&gt;However they are not by any means a substitution to traditional college degrees. Even though they work as a really good complement to the academic life, they don’t provide the same academic background as the former. It’s academic institutions and international educational agreements that are recognised and not a mere course from an online website.&lt;/p&gt;
-&lt;h2 id=&#34;so-was-it-worth-it&#34;&gt;So, was it worth it?&lt;/h2&gt;
+&lt;h2 id=&#34;so-was-it-worth-it&#34;&gt;So, was it worth it&lt;/h2&gt;
 &lt;p&gt;It’s hard to say. It will take some years to understand if it was a good investment, both financial as timewise. As what cost me the most, was not the money that I spent (approximately 2k€ for both years of tuition) but the amount of money that I didn’t earn,that with my calculations would be above 20k€ if I kept the same base salary both years, which probably wouldn’t happen.&lt;/p&gt;
 &lt;p&gt;But there is something else we tend to forget when we discuss about our field. The public sector. Over the years, state jobs for graduates have been increasing academic requirements. As an example, a recent introduction of an educational reform that forbid teachers without a PhD to lecture, made me witness some of the best teachers I had in my life quit teaching because they didn’t fulfil those academic requirements.&lt;/p&gt;
 &lt;p&gt;To conclude, I can’t predict if a masters degree will be crucial in the rest of my professional life, as I may work in places that don’t take it into account.&lt;/p&gt;
@@ -679,15 +674,15 @@ It is always good to learn about topics that even if they are not your main inte
       
       <guid>https://fmendes6.com/posts/15-04-18_xamarin_ii/</guid>
       <description>&lt;p&gt;It has been a while since &lt;a href=&#34;https://fmendes6.com/posts/14-04-10_xamarin/&#34;&gt;my last blog post&lt;/a&gt; about Xamarin and I feel this is the time to write something more about it. Although I haven’t been working with Xamarin for some months, I will write here some questions people often asked me when I was full-time working with it:&lt;/p&gt;
-&lt;h2 id=&#34;have-you-used-any-java-library-directly-how-easy-is-it-to-use-them&#34;&gt;Have you used any java library directly? How easy is it to use them?&lt;/h2&gt;
+&lt;h2 id=&#34;have-you-used-any-java-library-directly-how-easy-is-it-to-use-them&#34;&gt;Have you used any java library directly? How easy is it to use them&lt;/h2&gt;
 &lt;p&gt;First of all, let me say that Xamarin itself created a github account with many samples some of which have Android API wrappers for C# of popular java libraries (ex: ActionBarSherlock) which is worth checking out.&lt;/p&gt;
 &lt;p&gt;One of the requirements I had concerning the project was its feature of uploading files from the device to the server and I knew it wouldn’t be easy especially due to the Documents API introduced in Android 4.4.&lt;/p&gt;
 &lt;p&gt;I decided to implement it using the &lt;a href=&#34;https://github.com/iPaulPro/aFileChooser&#34;&gt;aFileChooser&lt;/a&gt; library which could solve this problem with ease. However, there was no port available as a Xamarin component, so I had to implement the wrapper myself following the &lt;a href=&#34;http://developer.xamarin.com/guides/android/advanced_topics/java_integration_overview/binding_a_java_library_%28.jar%29/&#34;&gt;Xamarin Tutorials&lt;/a&gt;.&lt;/p&gt;
 &lt;p&gt;The process is allegedly automatic and straightforward although we may need to describe some transformations in XML files due to the differences between both languages (Java and C#). As far as I remember, in the whole library I had to describe only two transformations regarding C#’s lack of covariance in method return types.&lt;/p&gt;
 &lt;p&gt;It was a bit messy in the beginning but it turned out to be easier than what it could actually be. Mostly thanks to the help of the Xamarin community with many similar examples available online. The whole forum works really well and there are many people with a deep knowledge of the platform ready to help anyone.&lt;/p&gt;
-&lt;h2 id=&#34;what-about-libraries-do-you-usually-use-them&#34;&gt;What about libraries? Do you usually use them?&lt;/h2&gt;
+&lt;h2 id=&#34;what-about-libraries-do-you-usually-use-them&#34;&gt;What about libraries? Do you usually use them&lt;/h2&gt;
 &lt;p&gt;Of course! The Xamarin website provides developers with a lot of small libraries (assemblies) available to download and ready to use. Check them out &lt;a href=&#34;http://components.xamarin.com/&#34;&gt;here&lt;/a&gt;!&lt;/p&gt;
-&lt;h2 id=&#34;any-other-obstacles-you-have-had-so-far&#34;&gt;Any other obstacles you have had so far?&lt;/h2&gt;
+&lt;h2 id=&#34;any-other-obstacles-you-have-had-so-far&#34;&gt;Any other obstacles you have had so far&lt;/h2&gt;
 &lt;p&gt;I don’t want to go into details here, but there where some problems while adding some external libraries (as well as with web services). I had to add some configurations to the linker options to avoid crashes in release mode. It is a fairly simple process once you know it but it is something I would had preferred not to go through.&lt;/p&gt;
 &lt;p&gt;However, if you only need to make a simple aplication that communicates with a REST API and stores some data persistently, you can simply use RestSharp together with SQLite.NET (or other reliable alternatives) and you won’t have to go through any of these I mentioned before. It really depends on what type of features and libraries you need to use, so there is no need for panic.&lt;/p&gt;
 &lt;p&gt;Keep in mind that not all frameworks and projects that are available in C# (outside of the Xamarin platform) can be used in a Xamarin.Android project so I recommend you to check its compability first here: &lt;a href=&#34;http://scan.xamarin.com/&#34;&gt;http://scan.xamarin.com/&lt;/a&gt;&lt;/p&gt;
@@ -789,19 +784,19 @@ This is probably the best advice anyone can give you. It will help you understan
       <guid>https://fmendes6.com/posts/14-04-10_xamarin/</guid>
       <description>&lt;p&gt;It has been 13 months since I started developing for Android and until now I have been using eclipse/IntelliJ as my IDEs, however, a new professional commitment made me to develop for Android using Xamarin and this blog post discusses my first impressions that i’ve experienced as an Android developer with Xamarin.&lt;/p&gt;
 &lt;p&gt;“With Xamarin, you write your apps entirely in C#, sharing the same code on iOS, Android and Mac” is Xamarin’s moto as a platform to develop iOS and Android with C# instead of Objective-C or Java respectively.&lt;/p&gt;
-&lt;h2 id=&#34;but-why-developing-with-c-xamarin-instead-of-developing-with-the-language-that-android-was-designed-for&#34;&gt;But why developing with C# (xamarin) instead of developing with the language that Android was designed for?&lt;/h2&gt;
+&lt;h2 id=&#34;but-why-developing-with-c-xamarin-instead-of-developing-with-the-language-that-android-was-designed-for&#34;&gt;But why developing with C# (xamarin) instead of developing with the language that Android was designed for&lt;/h2&gt;
 &lt;p&gt;Although one reason may be that the developers are not familiar with Java, the most important (in my opinion) is the possibility of developing with the benefits that C# has over Java (delegates,linq,async operations,etc.). After all, i can assure you that the code looks clearer and is easier to develop.&lt;/p&gt;
 &lt;p&gt;On the other hand, it enables us to develop the application core (business logic and data access) that is separated from the UI, and gives us the possibility to reuse that code within various client applications (Android, Windows, iOS).&lt;/p&gt;
-&lt;h2 id=&#34;well-ok-buthow-does-it-work&#34;&gt;Well ok but&amp;hellip;How does it work?&lt;/h2&gt;
+&lt;h2 id=&#34;well-ok-buthow-does-it-work&#34;&gt;Well ok but&amp;hellip;How does it work&lt;/h2&gt;
 &lt;p&gt;Xamarin lets us to develop everything with C# as long as we know how does the whole Android ecosystem works. It is necessary to understand the 4 basic components (Activity, Services, Broadcast Receivers and Content Providers) and how they work together. Even the types and methods are named same as in Java so that the only difference is the language in which one develops.&lt;/p&gt;
 &lt;p&gt;However, as someone who usually develops in Java, I realized quite quickly that a slight learning curve which was one of the noticeable differences. This was the use of custom attributes in activities in order to define their attributes (that is name, screen orientation, etc) instead of defining them in the manifest file. Also, as I noticed, there is a use of Properties instead of setter methods as in Java (ex: button.click += delegate {&amp;hellip;} instead of button.setOnClickListener(&amp;hellip;))&lt;/p&gt;
-&lt;h2 id=&#34;wow-that-seems-cool-so-how-do-we-start&#34;&gt;Wow! That seems cool! So how do we start?&lt;/h2&gt;
+&lt;h2 id=&#34;wow-that-seems-cool-so-how-do-we-start&#34;&gt;Wow! That seems cool! So how do we start&lt;/h2&gt;
 &lt;p&gt;That is where the problems begin&amp;hellip;&lt;/p&gt;
-&lt;h3 id=&#34;visual-studio&#34;&gt;Visual Studio:&lt;/h3&gt;
+&lt;h3 id=&#34;visual-studio&#34;&gt;Visual Studio&lt;/h3&gt;
 &lt;p&gt;I decided to start with Visual Studio since it is an IDE that I like a lot and that I had installed already because of my previous projects. The only necessary thing was to add a plugin (available for business accounts only).&lt;/p&gt;
 &lt;p&gt;After installing the plugin it is necessary to associate the business account with the Visual Studio int the menu options. The problem was that those options didn’t open because of a plugin error. After more than one hour (thanks to the deletion of one entry in the system registry), I managed to configure the account and deploy an Android application to my Nexus 4. But instantly Visual Studio warned me that LogCat would not be available for that application.&lt;/p&gt;
 &lt;p&gt;After this warning, I gave up with Visual Studio and decided to give Xamarin Studio a try.&lt;/p&gt;
-&lt;h3 id=&#34;xamarin-studio&#34;&gt;Xamarin Studio:&lt;/h3&gt;
+&lt;h3 id=&#34;xamarin-studio&#34;&gt;Xamarin Studio&lt;/h3&gt;
 &lt;p&gt;At first glance it seems to be a fast and simple to use IDE. Without any greater difference from the other IDEs, it doesn’t require a great learning curve, which is good!&lt;/p&gt;
 &lt;p&gt;The first weird crash that occurs is related to the save file operation. From this point on, the sporadic weird crashes started to occur more frequently although on simple and fast IDE reset solved the issue.&lt;/p&gt;
 &lt;p&gt;By the time I started to develop my own layouts, i realized that the IDE has no auto-complete feature in the XML files (or AXML as Xamarin “calls” it).&lt;/p&gt;
@@ -814,7 +809,7 @@ This is probably the best advice anyone can give you. It will help you understan
 &lt;p&gt;This means that double clicking the file enables us to access the design tab and the source tab without auto-complete. Opening with “Source Code Editor” provides us with auto-complete but without the design tab. This did not appear as productive to me&amp;hellip;&lt;/p&gt;
 &lt;p&gt;Then my co-workers suggested me an interesting solution. We shall use Android Studio (or IntelliJ) to develop the layouts, (taking advantage of the awesome “preview” tab that enables us to edit a layout file and looking at the results in real time) and then copy the above to xamarin studio, since those XML files are defined with the same rules and definitions.&lt;/p&gt;
 &lt;p&gt;Of course, keeping both IDEs opened together with chrome and other apps at the same time, demands at least a system with 8GB of RAM so that the development is prompt and possible at all.&lt;/p&gt;
-&lt;h2 id=&#34;hum-ok-is-there-anything-more-that-we-should-learn&#34;&gt;Hum OK&amp;hellip; Is there anything more that we should learn?&lt;/h2&gt;
+&lt;h2 id=&#34;hum-ok-is-there-anything-more-that-we-should-learn&#34;&gt;Hum OK&amp;hellip; Is there anything more that we should learn&lt;/h2&gt;
 &lt;p&gt;Well yes, there is. If you are thinking about using 3rd party Java libraries (.JAR) or Java projects, then you have several ways to do it:&lt;/p&gt;
 &lt;ul&gt;
 &lt;li&gt;Converting them manually;&lt;/li&gt;
@@ -823,7 +818,7 @@ This is probably the best advice anyone can give you. It will help you understan
 &lt;li&gt;Through a specific library that defines the mapping between Java and C# (Java Binding Library).&lt;/li&gt;
 &lt;/ul&gt;
 &lt;p&gt;All these options are well described on Xamarin official website.&lt;/p&gt;
-&lt;h2 id=&#34;wellwith-so-many-problems-is-xamarin-still-worth-it&#34;&gt;Well&amp;hellip;with so many problems is Xamarin still worth it?&lt;/h2&gt;
+&lt;h2 id=&#34;wellwith-so-many-problems-is-xamarin-still-worth-it&#34;&gt;Well&amp;hellip;with so many problems is Xamarin still worth it&lt;/h2&gt;
 &lt;p&gt;This decision can only be made by you. Nevertheless, if you are planning to share code across multiple mobile OSs, then Xamarin seems to be a really good option for me, even with the mentioned limitations in mind, as long as we use it together with Android Studio/IntelliJ to design the layouts :P&lt;/p&gt;
 &lt;p&gt;That is all for today. In the following weeks, I am going to write another blog post. This time enriched by a greater experience with Xamarin. So shall we keep in touch? :)&lt;/p&gt;
 &lt;h2 id=&#34;update-22062014&#34;&gt;Update (22/06/2014)&lt;/h2&gt;
