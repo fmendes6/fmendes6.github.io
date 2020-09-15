@@ -57,8 +57,8 @@
 &lt;p&gt;&lt;a href=&#34;https://fmendes6.com/posts/20-04-06_documentation_problem&#34;&gt;Part 1 - The problem&lt;/a&gt;&lt;br&gt;
 &lt;a href=&#34;https://fmendes6.com/posts/20-04-13_documentation_squad&#34;&gt;Part 2 - Squad level documentation&lt;/a&gt;&lt;br&gt;
 &lt;strong&gt;Part 3 - Chapter level documentation&lt;/strong&gt;&lt;/p&gt;
-&lt;p&gt;All platforms are different and deal with different limitations/constraints so is considerably harder to create a template the would work for all platforms. However, one question that we should always have in mind is:&lt;/p&gt;
-&lt;p&gt;&lt;em&gt;” What would a colleague of mine need to know if he/she started to work alongside me in a shared codebase?”&lt;/em&gt;&lt;/p&gt;
+&lt;p&gt;All platforms are different and deal with different limitations/constraints so it is considerably harder to create a template that would work for all platforms. However, one question that we should always have in mind is:&lt;/p&gt;
+&lt;p&gt;&lt;em&gt;”What would a colleague of mine need to know if he/she started to work alongside me in a shared codebase?”&lt;/em&gt;&lt;/p&gt;
 &lt;p&gt;This helps us envision the use case in which a document would be useful:&lt;/p&gt;
 &lt;blockquote&gt;
 &lt;p&gt;As an iOS developer, when I join a new squad, I want to have a high-level idea of how my iOS colleagues have implemented the feature and how all the components interact with each other.&lt;/p&gt;
