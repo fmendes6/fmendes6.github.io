@@ -192,9 +192,9 @@
     
 
     <div class="py-5">
-      <p>I believe there is still “some” degree of innovation in both Android and iOS platforms with each release. However, software companies can’t seem to keep the pace, and not all developers know what’s new (<a href="https://translate.google.com/translate?sl=pt&amp;tl=en&amp;u=https%3A%2F%2Fopinioes.online%2Fpost%2Fagosto2020-android%2F%23futuro">myself included</a>).</p>
+      <p>I believe there is still “some” degree of innovation in both Android and iOS platforms with each release. However, software companies can’t seem to keep the pace, and not all developers know what’s new, as I mentioned on my <a href="https://opinioes.online/post/agosto2020-android/#futuro">Futuro até quando?</a>) blog post.</p>
 <p>The mobile applications market has stagnated. The competition reached a point where even multi-million dollar companies or highly funded startups hardly have a chance to have their apps discoverable in the app stores, let alone achieve the top 10 of most downloaded apps.</p>
-<p>The return of investment for most companies in regards to their mobile apps is probably low, especially when such apps do not take full advantage of what mobile brings to the table. As my former lead Rui Teixeira once told me, “<em>mobile apps are now a commodity</em>” in the sense that apps are part of a product’s offering but not really at the core of their strategy.</p>
+<p>The return of investment for most companies in regards to their mobile apps is probably low, especially when such apps do not take full advantage of what mobile brings to the table. As my former lead Rui Teixeira once told me, “<em>mobile apps are now a commodity</em>”, meaning that apps are part of a product’s offering but not really the core of their strategy.</p>
 <h2 id="a-cross-platform-solution">A cross-platform solution</h2>
 <p>The current state of the industry has led to an increasing number of companies adopting cross-platform solutions, and my current employer is no exception. As a result, I have now worked in react native for two months.</p>
 <p>I can see some interesting technical benefits (fast refresh, testing tools) in our current solution, and how it seems to fulfil every business’s dream of “<em>Write once, run anywhere</em>” even though that’s not what <a href="https://engineering.fb.com/2015/03/26/android/react-native-bringing-modern-web-techniques-to-mobile/">Facebook endorses</a>.</p>
@@ -216,7 +216,7 @@
 <ul>
 <li>Your app is used every day;</li>
 <li>Your app has a complex, elaborate and dedicated user experience;</li>
-<li>Your app is at the core of your product offering (ex: Monzo, Revolut, Uber)</li>
+<li>Your app is at the core of your product offering (ex: Monzo, Todoist, Uber)</li>
 <li>You have high technical requirements (ex: performance, app size, etc.).</li>
 </ul>
 <p>As a user, ask yourself. Can you tell the difference in experience between native and cross-platform apps? Probably not when it comes to Facebook apps, but I wonder about all the others.</p>
@@ -269,15 +269,16 @@
 <li>Implement the specific interfaces/protocols defined by the Kotlin Mobile Developers in case of need to access platform-specific APIs.</li>
 </ul>
 <p>With this structure, each company now has the advantage of being able to hire developers that are familiar with vanilla Kotlin to develop a big part of their mobile apps. Whether they have a backend background, are interns or only <a href="https://kotlinlang.org/education/why-teach-kotlin.html">computer science graduates</a>, KMM removes the requirement of years of experience in one of the mobile platforms, further increasing the pool of possible candidates. As a consequence, the demand for both Android and iOS developers would become considerably lower.</p>
-<p>Both Android and iOS developers would then work closely with Kotlin Mobile Developers in negotiating high-level APIs (interfaces and protocols) and domain objects that both UIs would access. This preliminary work would give the chance to mock these APIs on the frontend while the “mobile backend” is in development.</p>
+<p>Both Android and iOS developers would then work closely with Kotlin Mobile Developers in negotiating high-level APIs (interfaces and protocols) and domain objects that both UIs would use. This preliminary work would give the chance to mock these APIs on the frontend while the “mobile backend” is in development.</p>
 <p>In parallel, this shift could also create a wave of fully implemented mobile <code>.jar</code> s and <code>Framework</code>s available for any 3rd parties to use. This shift would enable smaller companies without access to Android and iOS developers, to get one step closer to publishing their mobile apps, by outsourcing the UI layer to an external agency.</p>
 <h2 id="final-thoughts">Final thoughts</h2>
 <p>A KMM solution brings back the parity issue between apps, which is one of the strongest arguments in favour of cross-platform UI tools. If this is an absolute requirement on your part, then it seems it is (or will be) possible to import KMM code into any frontend applications, including projects in React Native and Flutter.</p>
-<p>So if in the lifetime of your project, you decide to move to a cross-platform UI solution, this migration will not require changing the infrastructure. In that case, that transition could be faster, safer and more focused given that the mobile “backend” is already complete.</p>
-<p>KMM is not yet final, and there is a significant risk in adopting if your app is crucial to your business. There are a few signs from different companies moving to a KMM approach (<a href="https://medium.com/@NetflixTechBlog/netflix-android-and-ios-studio-apps-kotlin-multiplatform-d6d4d8d25d23">Netflix included</a>) which give me hope that a part of this vision becomes true.</p>
-<p>For the past months, I have been trying to figure out what will the mobile world look like in the near future. I have become depressed with the developer communities obsession with new architectures, companies betting evermore on cross-platform UI tools and an impenetrable app market.</p>
+<p>So if in the lifetime of your project, you decide to move to a cross-platform UI solution, this migration will not require changing the infrastructure. In that case, the transition could be faster, safer and more focused given that the mobile “backend” is already complete.</p>
+<p>KMM is not yet final, and there is a significant risk in adopting if your app is crucial to your business. There are a few signs from different companies moving to a KMM approach (<a href="https://medium.com/@NetflixTechBlog/netflix-android-and-ios-studio-apps-kotlin-multiplatform-d6d4d8d25d23">Netflix included</a>) which give me hope that a part of this vision will become true.</p>
+<p>For the past months, I have been trying to figure out what will the mobile world look like in the near future. I have become depressed with the developer communities obsession with new architectures, companies betting more on cross-platform UI tools and an impenetrable app market.</p>
 <p>But Kotlin Multiplatform brings me hope. A hope that there will be a higher focus on what matters.</p>
 <p>The user experience.</p>
+<p><em>PS: A special thank you to <a href="https://twitter.com/luca_nicolett">Luca Nicoletti</a> for reviewing this article.</em></p>
 
     </div>
 
