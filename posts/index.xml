@@ -6,10 +6,105 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <copyright>MIT</copyright>
-    <lastBuildDate>Mon, 05 Oct 2020 00:00:00 +0100</lastBuildDate>
+    <lastBuildDate>Sun, 01 Nov 2020 00:00:00 +0000</lastBuildDate>
     
         <atom:link href="https://fmendes6.com/posts/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>A hopeful shift</title>
+      <link>https://fmendes6.com/posts/20-04-20_hopeful_shift/</link>
+      <pubDate>Sun, 01 Nov 2020 00:00:00 +0000</pubDate>
+      
+      <guid>https://fmendes6.com/posts/20-04-20_hopeful_shift/</guid>
+      <description>&lt;p&gt;I believe there is still “some” degree of innovation in both Android and iOS platforms with each release. However, software companies can’t seem to keep the pace, and not all developers know what’s new (&lt;a href=&#34;https://translate.google.com/translate?sl=pt&amp;amp;tl=en&amp;amp;u=https%3A%2F%2Fopinioes.online%2Fpost%2Fagosto2020-android%2F%23futuro&#34;&gt;myself included&lt;/a&gt;).&lt;/p&gt;
+&lt;p&gt;The mobile applications market has stagnated. The competition reached a point where even multi-million dollar companies or highly funded startups hardly have a chance to have their apps discoverable in the app stores, let alone achieve the top 10 of most downloaded apps.&lt;/p&gt;
+&lt;p&gt;The return of investment for most companies in regards to their mobile apps is probably low, especially when such apps do not take full advantage of what mobile brings to the table. As my former lead Rui Teixeira once told me, “&lt;em&gt;mobile apps are now a commodity&lt;/em&gt;” in the sense that apps are part of a product’s offering but not really at the core of their strategy.&lt;/p&gt;
+&lt;h2 id=&#34;a-cross-platform-solution&#34;&gt;A cross-platform solution&lt;/h2&gt;
+&lt;p&gt;The current state of the industry has led to an increasing number of companies adopting cross-platform solutions, and my current employer is no exception. As a result, I have now worked in react native for two months.&lt;/p&gt;
+&lt;p&gt;I can see some interesting technical benefits (fast refresh, testing tools) in our current solution, and how it seems to fulfil every business’s dream of “&lt;em&gt;Write once, run anywhere&lt;/em&gt;” even though that’s not what &lt;a href=&#34;https://engineering.fb.com/2015/03/26/android/react-native-bringing-modern-web-techniques-to-mobile/&#34;&gt;Facebook endorses&lt;/a&gt;.&lt;/p&gt;
+&lt;p&gt;My little experience with React Native has shown me that some transitions between screens were not always consistent between platforms. That some screen states were hard to manage because the state was reused in previously closed screens, and some react hooks made things harder than they were supposed to be. Plus, there were situations where certain HTML elements could have (and had) &lt;a href=&#34;https://reactnative.dev/docs/accessibility/&#34;&gt;properties&lt;/a&gt; that only existed in one of the platforms.&lt;/p&gt;
+&lt;p&gt;To be fair, the first two issues were probably an implementation problem and not a react native limitation. But it shows how easy it is to go over fundamental mobile constraints when you develop and test in one platform but deploy for several at the same time. I dreaded moments of “&lt;em&gt;it works on android but not iOS&lt;/em&gt;”, but to be honest, in a “component-oriented” project, once these were implemented and properly tested, issues tended to be quite rare.&lt;/p&gt;
+&lt;p&gt;In regards to the user experience, the UI had to be considerably toned down and made blander to ship a less platform focused and more “generic” UI. You would argue that React Native enables us to have a dedicated UI for each platform, but if that were a requirement, you probably wouldn’t have adopted React Native in the first place.&lt;/p&gt;
+&lt;p&gt;The same applies to the argument that you can leverage the native modules and import native code. React Native indeed provides a way for you to do it, but I would argue most teams will try to use existing 3rd party React Native libraries that offer the same functionality since most projects will not have access to native engineers that can implement that native code. Plus, let’s not forget the cost of its maintenance in the long run.&lt;/p&gt;
+&lt;p&gt;Adopting React Native also brings the possibility of hiring full-stack developers to work on the mobile world. However, the resulting product will most certainly have an impact on your app’s user experience because not all these developers know the constraints and expected usability that a mobile environment requires.&lt;/p&gt;
+&lt;h2 id=&#34;a-choice-to-be-made&#34;&gt;A choice to be made&lt;/h2&gt;
+&lt;p&gt;Budget, hiring, maintenance, long term strategy and the nature of the product itself, matter more than any opinion you can read on the internet or hear in the corridors of your office.&lt;/p&gt;
+&lt;p&gt;I am sure cross-platforms solutions like React Native, have its place in the market, and a lot of companies would do a right decision by adoption it, but I don’t think it is the solution for the future and to some extent even the present, of a lot of mobile apps. But for the sake of it:&lt;/p&gt;
+&lt;p&gt;Cross-platform is a valid option if either:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Your app is just an extension of a bigger product offering;&lt;/li&gt;
+&lt;li&gt;Your app is only used a couple of times a month;&lt;/li&gt;
+&lt;li&gt;You need to hit the market on all platforms as soon as possible.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;When it comes to native, it should be preferred if either:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Your app is used every day;&lt;/li&gt;
+&lt;li&gt;Your app has a complex, elaborate and dedicated user experience;&lt;/li&gt;
+&lt;li&gt;Your app is at the core of your product offering (ex: Monzo, Revolut, Uber)&lt;/li&gt;
+&lt;li&gt;You have high technical requirements (ex: performance, app size, etc.).&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;As a user, ask yourself. Can you tell the difference in experience between native and cross-platform apps? Probably not when it comes to Facebook apps, but I wonder about all the others.&lt;/p&gt;
+&lt;h2 id=&#34;a-xamarin-experience&#34;&gt;A Xamarin experience&lt;/h2&gt;
+&lt;p&gt;Debuted in 2011, Xamarin sits near PhoneGap, React Native and so many others in the fight between native and cross-platform. Although that is technically correct, there is a significant distinction to be made.&lt;/p&gt;
+&lt;p&gt;Old school Xamarin was cross-platform in the infrastructure and business logic but not in the UI layer. For the UI layer, you would have to know the Android Framework and C#, which meant that as an android developer, I was not able to develop an iOS app. Cross-platform UI became possible only later on with the arrival of Xamarin.Forms.&lt;/p&gt;
+&lt;p&gt;This distinction between UI and business logic is an important detail because it enabled unusual team structures.&lt;/p&gt;
+&lt;p&gt;In the second year of my &lt;a href=&#34;https://fmendes6.com/posts/15-04-18_xamarin_ii/&#34;&gt;first professional experience&lt;/a&gt;, back in 2014, I was assigned to develop a mobile app for a client. This client wanted to distribute an app to its partners as quickly as possible, without spending time creating a middleware that could serve as an intermediary between its .NET core product and the app.&lt;/p&gt;
+&lt;p&gt;Xamarin was a great solution because it enabled us to reuse domain knowledge and import .NET business logic assemblies into our app. This integration made even more sense when the client’s developer joined the project to work solely on the business rules in the language he was the most experienced with, C#.&lt;/p&gt;
+&lt;p&gt;This structure made us architect the app in a clear separation between the android app (UI layer) and its business logic (a C# assembly). As the only person knowledgable of the Android Framework, I worked solely on the UI layer, the client’s developer on the business layer with vanilla C# and our intern, a CS graduate, would implement the local database in SQLite.&lt;/p&gt;
+&lt;p&gt;Xamarin was great because in theory, if the company decided to develop an iOS app the next year, it could merely plug in the business logic assembly and only implement the UI layer.&lt;/p&gt;
+&lt;p&gt;Unfortunately, it wasn’t all just bells and whistles. In the long run, we experienced many of the issues described by Pixplicity in their great &lt;a href=&#34;https://medium.com/pixplicity/why-we-are-not-cross-platform-developers-fd7ef70e976d&#34;&gt;Why we are not cross-platform developers&lt;/a&gt; blog post.&lt;/p&gt;
+&lt;h2 id=&#34;a-new-hope&#34;&gt;A new hope&lt;/h2&gt;
+&lt;p&gt;Kotlin and Kotlin Multiplatform SDK have recently revived the cross-platform debate, with JetBrains promising the following:&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;Kotlin Multiplatform Mobile (KMM) is an SDK that allows you to use the same business logic code in both iOS and Android applications.&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;On another blog post:&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;The Android and iOS versions of an application often have a lot in common, but they can also differ significantly – especially in terms of their UI (…). At the same time, the application’s business logic, (…), is often identical. That’s why it’s natural to share some parts of an application across platforms while keeping other parts completely separate.&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;blockquote&gt;
+&lt;p&gt;With KMM, you can (…) use a single codebase for the business logic of iOS and Android apps and write platform-specific code only where it’s necessary, to implement a native UI or when working with platform-specific APIs.&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;KMM has the same premise as Xamarin but with a key difference. There is a separation of concerns not only at a logical level but at a technological level as a whole. The business logic codebase can be imported in native projects, leveraging the best of both native and cross-platform worlds.&lt;/p&gt;
+&lt;p&gt;But more interesting than that, it is possible to initiate this transition to KMM incrementally and over time, by starting with a few business logic unit tests or small domain modules. The continuous and incremental migration from Java code to Kotlin without stopping development and deployment was, in my opinion, one of the reasons why businesses let Android developers proceed with the change from Java to Kotlin.&lt;/p&gt;
+&lt;h2 id=&#34;a-glimpse-into-the-future&#34;&gt;A glimpse into the future&lt;/h2&gt;
+&lt;p&gt;By watching the past &lt;a href=&#34;https://kotlinlang.org/lp/event-14/&#34;&gt;Kotlin 1.4 Online event&lt;/a&gt;, and later the iPhone 12 announcement and how “incredible” 5G will be, I have started to imagine how all of these technologies could come together.&lt;/p&gt;
+&lt;p&gt;Old are the days where iOS developers would mock Android developers for having to support so many form factors. The iOS devices landscape is becoming more diversified, and with it, greater care in usability is necessary.&lt;/p&gt;
+&lt;p&gt;New forms of interaction like Virtual Reality and Augmented Reality, are now becoming possible in low-end devices and companies are starting to look into these to push innovation in their products.&lt;/p&gt;
+&lt;p&gt;And so, I believe KMM can play a vital role in the future of mobile.&lt;/p&gt;
+&lt;p&gt;I envision a near future where most android and iOS projects will migrate their business logic and infrastructure to KMM. This migration would generate a new type of developer called Kotlin Mobile Developer.&lt;/p&gt;
+&lt;p&gt;Provided they know about the mobile environment and constraints, these developers would be responsible for implementing all the “mobile backend” in pure Kotlin. They would be responsible for:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Defining the mobile domain model;&lt;/li&gt;
+&lt;li&gt;Implementing the business logic;&lt;/li&gt;
+&lt;li&gt;Implementing the network layer;&lt;/li&gt;
+&lt;li&gt;Implementing the database layer and all its syncing algorithms;&lt;/li&gt;
+&lt;li&gt;Managing the continuous integration and deployment of the app;&lt;/li&gt;
+&lt;li&gt;Dealing with Security concerns;&lt;/li&gt;
+&lt;li&gt;Defining all common interfaces/protocols for native platforms to implement in case of need to access specific platforms APIs;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;Front-facing developers (Android and iOS) would then work closer to the design and research team and becoming even more specialised in providing a stellar user experience, leveraging all that native code has to offer. They would be responsible for:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Implementing all the user interface;&lt;/li&gt;
+&lt;li&gt;Creating more efficient and delightful animations;&lt;/li&gt;
+&lt;li&gt;Exploring and incorporating VR and AR;&lt;/li&gt;
+&lt;li&gt;Implementing accessibility;&lt;/li&gt;
+&lt;li&gt;Leveraging the speed of internet connection like 5G to create new experiences.&lt;/li&gt;
+&lt;li&gt;Implement the specific interfaces/protocols defined by the Kotlin Mobile Developers in case of need to access platform-specific APIs.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;With this structure, each company now has the advantage of being able to hire developers that are familiar with vanilla Kotlin to develop a big part of their mobile apps. Whether they have a backend background, are interns or only &lt;a href=&#34;https://kotlinlang.org/education/why-teach-kotlin.html&#34;&gt;computer science graduates&lt;/a&gt;, KMM removes the requirement of years of experience in one of the mobile platforms, further increasing the pool of possible candidates. As a consequence, the demand for both Android and iOS developers would become considerably lower.&lt;/p&gt;
+&lt;p&gt;Both Android and iOS developers would then work closely with Kotlin Mobile Developers in negotiating high-level APIs (interfaces and protocols) and domain objects that both UIs would access. This preliminary work would give the chance to mock these APIs on the frontend while the “mobile backend” is in development.&lt;/p&gt;
+&lt;p&gt;In parallel, this shift could also create a wave of fully implemented mobile &lt;code&gt;.jar&lt;/code&gt; s and &lt;code&gt;Framework&lt;/code&gt;s available for any 3rd parties to use. This shift would enable smaller companies without access to Android and iOS developers, to get one step closer to publishing their mobile apps, by outsourcing the UI layer to an external agency.&lt;/p&gt;
+&lt;h2 id=&#34;final-thoughts&#34;&gt;Final thoughts&lt;/h2&gt;
+&lt;p&gt;A KMM solution brings back the parity issue between apps, which is one of the strongest arguments in favour of cross-platform UI tools. If this is an absolute requirement on your part, then it seems it is (or will be) possible to import KMM code into any frontend applications, including projects in React Native and Flutter.&lt;/p&gt;
+&lt;p&gt;So if in the lifetime of your project, you decide to move to a cross-platform UI solution, this migration will not require changing the infrastructure. In that case, that transition could be faster, safer and more focused given that the mobile “backend” is already complete.&lt;/p&gt;
+&lt;p&gt;KMM is not yet final, and there is a significant risk in adopting if your app is crucial to your business. There are a few signs from different companies moving to a KMM approach (&lt;a href=&#34;https://medium.com/@NetflixTechBlog/netflix-android-and-ios-studio-apps-kotlin-multiplatform-d6d4d8d25d23&#34;&gt;Netflix included&lt;/a&gt;) which give me hope that a part of this vision becomes true.&lt;/p&gt;
+&lt;p&gt;For the past months, I have been trying to figure out what will the mobile world look like in the near future. I have become depressed with the developer communities obsession with new architectures, companies betting evermore on cross-platform UI tools and an impenetrable app market.&lt;/p&gt;
+&lt;p&gt;But Kotlin Multiplatform brings me hope. A hope that there will be a higher focus on what matters.&lt;/p&gt;
+&lt;p&gt;The user experience.&lt;/p&gt;
+</description>
+    </item>
     
     <item>
       <title>O (velho) normal</title>
@@ -683,20 +778,20 @@ It is always good to learn about topics that even if they are not your main inte
       
       <guid>https://fmendes6.com/posts/15-04-18_xamarin_ii/</guid>
       <description>&lt;p&gt;It has been a while since &lt;a href=&#34;https://fmendes6.com/posts/14-04-10_xamarin/&#34;&gt;my last blog post&lt;/a&gt; about Xamarin and I feel this is the time to write something more about it. Although I haven’t been working with Xamarin for some months, I will write here some questions people often asked me when I was full-time working with it:&lt;/p&gt;
-&lt;h2 id=&#34;have-you-used-any-java-library-directly-how-easy-is-it-to-use-them&#34;&gt;Have you used any java library directly? How easy is it to use them&lt;/h2&gt;
+&lt;h4 id=&#34;have-you-used-any-java-library-directly-how-easy-is-it-to-use-them&#34;&gt;Have you used any java library directly? How easy is it to use them&lt;/h4&gt;
 &lt;p&gt;First of all, let me say that Xamarin itself created a github account with many samples some of which have Android API wrappers for C# of popular java libraries (ex: ActionBarSherlock) which is worth checking out.&lt;/p&gt;
 &lt;p&gt;One of the requirements I had concerning the project was its feature of uploading files from the device to the server and I knew it wouldn’t be easy especially due to the Documents API introduced in Android 4.4.&lt;/p&gt;
 &lt;p&gt;I decided to implement it using the &lt;a href=&#34;https://github.com/iPaulPro/aFileChooser&#34;&gt;aFileChooser&lt;/a&gt; library which could solve this problem with ease. However, there was no port available as a Xamarin component, so I had to implement the wrapper myself following the &lt;a href=&#34;http://developer.xamarin.com/guides/android/advanced_topics/java_integration_overview/binding_a_java_library_%28.jar%29/&#34;&gt;Xamarin Tutorials&lt;/a&gt;.&lt;/p&gt;
 &lt;p&gt;The process is allegedly automatic and straightforward although we may need to describe some transformations in XML files due to the differences between both languages (Java and C#). As far as I remember, in the whole library I had to describe only two transformations regarding C#’s lack of covariance in method return types.&lt;/p&gt;
 &lt;p&gt;It was a bit messy in the beginning but it turned out to be easier than what it could actually be. Mostly thanks to the help of the Xamarin community with many similar examples available online. The whole forum works really well and there are many people with a deep knowledge of the platform ready to help anyone.&lt;/p&gt;
-&lt;h2 id=&#34;what-about-libraries-do-you-usually-use-them&#34;&gt;What about libraries? Do you usually use them&lt;/h2&gt;
+&lt;h4 id=&#34;what-about-libraries-do-you-usually-use-them&#34;&gt;What about libraries? Do you usually use them&lt;/h4&gt;
 &lt;p&gt;Of course! The Xamarin website provides developers with a lot of small libraries (assemblies) available to download and ready to use. Check them out &lt;a href=&#34;http://components.xamarin.com/&#34;&gt;here&lt;/a&gt;!&lt;/p&gt;
-&lt;h2 id=&#34;any-other-obstacles-you-have-had-so-far&#34;&gt;Any other obstacles you have had so far&lt;/h2&gt;
+&lt;h4 id=&#34;any-other-obstacles-you-have-had-so-far&#34;&gt;Any other obstacles you have had so far&lt;/h4&gt;
 &lt;p&gt;I don’t want to go into details here, but there where some problems while adding some external libraries (as well as with web services). I had to add some configurations to the linker options to avoid crashes in release mode. It is a fairly simple process once you know it but it is something I would had preferred not to go through.&lt;/p&gt;
 &lt;p&gt;However, if you only need to make a simple aplication that communicates with a REST API and stores some data persistently, you can simply use RestSharp together with SQLite.NET (or other reliable alternatives) and you won’t have to go through any of these I mentioned before. It really depends on what type of features and libraries you need to use, so there is no need for panic.&lt;/p&gt;
 &lt;p&gt;Keep in mind that not all frameworks and projects that are available in C# (outside of the Xamarin platform) can be used in a Xamarin.Android project so I recommend you to check its compability first here: &lt;a href=&#34;http://scan.xamarin.com/&#34;&gt;http://scan.xamarin.com/&lt;/a&gt;&lt;/p&gt;
-&lt;p&gt;## If you could choose, which language would you chose for development?
-It is not an easy decision but once you start “Squarifying” your apps (I mean, using Square’s open source libraries) it’s hard to go back even though C# looks less verbose and sometimes is easier to develop on.&lt;/p&gt;
+&lt;h4 id=&#34;if-you-could-choose-which-language-would-you-chose-for-development&#34;&gt;If you could choose, which language would you chose for development?&lt;/h4&gt;
+&lt;p&gt;It is not an easy decision but once you start “Squarifying” your apps (I mean, using Square’s open source libraries) it’s hard to go back even though C# looks less verbose and sometimes is easier to develop on.&lt;/p&gt;
 &lt;p&gt;Although it depends on the restrictions of the app (enterprise or personal), keep in mind that Xamarin is paid, which is a big con for indie developers.&lt;/p&gt;
 &lt;p&gt;The whole Android ecossystem evolves much faster in Java, and Xamarin has been catching it surprisingly fast but I am afraid that a great amount of community libraries that are being released now in Java may never see the daylight in Xamarin.&lt;/p&gt;
 &lt;p&gt;As a final note, I have to say that some of Xamarin updates can be troublesome with Visual Studio. What is more, I experienced several freezes while loading the project on startup, which is something that frustrated me a lot.&lt;/p&gt;
@@ -793,19 +888,19 @@ This is probably the best advice anyone can give you. It will help you understan
       <guid>https://fmendes6.com/posts/14-04-10_xamarin/</guid>
       <description>&lt;p&gt;It has been 13 months since I started developing for Android and until now I have been using eclipse/IntelliJ as my IDEs, however, a new professional commitment made me to develop for Android using Xamarin and this blog post discusses my first impressions that i’ve experienced as an Android developer with Xamarin.&lt;/p&gt;
 &lt;p&gt;“With Xamarin, you write your apps entirely in C#, sharing the same code on iOS, Android and Mac” is Xamarin’s moto as a platform to develop iOS and Android with C# instead of Objective-C or Java respectively.&lt;/p&gt;
-&lt;h2 id=&#34;but-why-developing-with-c-xamarin-instead-of-developing-with-the-language-that-android-was-designed-for&#34;&gt;But why developing with C# (xamarin) instead of developing with the language that Android was designed for&lt;/h2&gt;
+&lt;h4 id=&#34;but-why-developing-with-c-xamarin-instead-of-developing-with-the-language-that-android-was-designed-for&#34;&gt;But why developing with C# (xamarin) instead of developing with the language that Android was designed for&lt;/h4&gt;
 &lt;p&gt;Although one reason may be that the developers are not familiar with Java, the most important (in my opinion) is the possibility of developing with the benefits that C# has over Java (delegates,linq,async operations,etc.). After all, i can assure you that the code looks clearer and is easier to develop.&lt;/p&gt;
 &lt;p&gt;On the other hand, it enables us to develop the application core (business logic and data access) that is separated from the UI, and gives us the possibility to reuse that code within various client applications (Android, Windows, iOS).&lt;/p&gt;
-&lt;h2 id=&#34;well-ok-buthow-does-it-work&#34;&gt;Well ok but&amp;hellip;How does it work&lt;/h2&gt;
+&lt;h4 id=&#34;well-ok-buthow-does-it-work&#34;&gt;Well ok but&amp;hellip;How does it work&lt;/h4&gt;
 &lt;p&gt;Xamarin lets us to develop everything with C# as long as we know how does the whole Android ecosystem works. It is necessary to understand the 4 basic components (Activity, Services, Broadcast Receivers and Content Providers) and how they work together. Even the types and methods are named same as in Java so that the only difference is the language in which one develops.&lt;/p&gt;
 &lt;p&gt;However, as someone who usually develops in Java, I realized quite quickly that a slight learning curve which was one of the noticeable differences. This was the use of custom attributes in activities in order to define their attributes (that is name, screen orientation, etc) instead of defining them in the manifest file. Also, as I noticed, there is a use of Properties instead of setter methods as in Java (ex: button.click += delegate {&amp;hellip;} instead of button.setOnClickListener(&amp;hellip;))&lt;/p&gt;
-&lt;h2 id=&#34;wow-that-seems-cool-so-how-do-we-start&#34;&gt;Wow! That seems cool! So how do we start&lt;/h2&gt;
+&lt;h4 id=&#34;wow-that-seems-cool-so-how-do-we-start&#34;&gt;Wow! That seems cool! So how do we start&lt;/h4&gt;
 &lt;p&gt;That is where the problems begin&amp;hellip;&lt;/p&gt;
-&lt;h3 id=&#34;visual-studio&#34;&gt;Visual Studio&lt;/h3&gt;
+&lt;h4 id=&#34;visual-studio&#34;&gt;Visual Studio&lt;/h4&gt;
 &lt;p&gt;I decided to start with Visual Studio since it is an IDE that I like a lot and that I had installed already because of my previous projects. The only necessary thing was to add a plugin (available for business accounts only).&lt;/p&gt;
 &lt;p&gt;After installing the plugin it is necessary to associate the business account with the Visual Studio int the menu options. The problem was that those options didn’t open because of a plugin error. After more than one hour (thanks to the deletion of one entry in the system registry), I managed to configure the account and deploy an Android application to my Nexus 4. But instantly Visual Studio warned me that LogCat would not be available for that application.&lt;/p&gt;
 &lt;p&gt;After this warning, I gave up with Visual Studio and decided to give Xamarin Studio a try.&lt;/p&gt;
-&lt;h3 id=&#34;xamarin-studio&#34;&gt;Xamarin Studio&lt;/h3&gt;
+&lt;h4 id=&#34;xamarin-studio&#34;&gt;Xamarin Studio&lt;/h4&gt;
 &lt;p&gt;At first glance it seems to be a fast and simple to use IDE. Without any greater difference from the other IDEs, it doesn’t require a great learning curve, which is good!&lt;/p&gt;
 &lt;p&gt;The first weird crash that occurs is related to the save file operation. From this point on, the sporadic weird crashes started to occur more frequently although on simple and fast IDE reset solved the issue.&lt;/p&gt;
 &lt;p&gt;By the time I started to develop my own layouts, i realized that the IDE has no auto-complete feature in the XML files (or AXML as Xamarin “calls” it).&lt;/p&gt;
@@ -818,7 +913,7 @@ This is probably the best advice anyone can give you. It will help you understan
 &lt;p&gt;This means that double clicking the file enables us to access the design tab and the source tab without auto-complete. Opening with “Source Code Editor” provides us with auto-complete but without the design tab. This did not appear as productive to me&amp;hellip;&lt;/p&gt;
 &lt;p&gt;Then my co-workers suggested me an interesting solution. We shall use Android Studio (or IntelliJ) to develop the layouts, (taking advantage of the awesome “preview” tab that enables us to edit a layout file and looking at the results in real time) and then copy the above to xamarin studio, since those XML files are defined with the same rules and definitions.&lt;/p&gt;
 &lt;p&gt;Of course, keeping both IDEs opened together with chrome and other apps at the same time, demands at least a system with 8GB of RAM so that the development is prompt and possible at all.&lt;/p&gt;
-&lt;h2 id=&#34;hum-ok-is-there-anything-more-that-we-should-learn&#34;&gt;Hum OK&amp;hellip; Is there anything more that we should learn&lt;/h2&gt;
+&lt;h4 id=&#34;hum-ok-is-there-anything-more-that-we-should-learn&#34;&gt;Hum OK&amp;hellip; Is there anything more that we should learn&lt;/h4&gt;
 &lt;p&gt;Well yes, there is. If you are thinking about using 3rd party Java libraries (.JAR) or Java projects, then you have several ways to do it:&lt;/p&gt;
 &lt;ul&gt;
 &lt;li&gt;Converting them manually;&lt;/li&gt;
@@ -827,10 +922,10 @@ This is probably the best advice anyone can give you. It will help you understan
 &lt;li&gt;Through a specific library that defines the mapping between Java and C# (Java Binding Library).&lt;/li&gt;
 &lt;/ul&gt;
 &lt;p&gt;All these options are well described on Xamarin official website.&lt;/p&gt;
-&lt;h2 id=&#34;wellwith-so-many-problems-is-xamarin-still-worth-it&#34;&gt;Well&amp;hellip;with so many problems is Xamarin still worth it&lt;/h2&gt;
+&lt;h4 id=&#34;wellwith-so-many-problems-is-xamarin-still-worth-it&#34;&gt;Well&amp;hellip;with so many problems is Xamarin still worth it&lt;/h4&gt;
 &lt;p&gt;This decision can only be made by you. Nevertheless, if you are planning to share code across multiple mobile OSs, then Xamarin seems to be a really good option for me, even with the mentioned limitations in mind, as long as we use it together with Android Studio/IntelliJ to design the layouts :P&lt;/p&gt;
 &lt;p&gt;That is all for today. In the following weeks, I am going to write another blog post. This time enriched by a greater experience with Xamarin. So shall we keep in touch? :)&lt;/p&gt;
-&lt;h2 id=&#34;update-22062014&#34;&gt;Update (22/06/2014)&lt;/h2&gt;
+&lt;h4 id=&#34;update-22062014&#34;&gt;Update (22/06/2014)&lt;/h4&gt;
 &lt;p&gt;With Visual Studio 2013 (12.0 update 2 at least) and the Xamarin plug-in everything seems to work well! No weird crashes, the logging works perfectly and additionally it has got an intellisense for C# code, which Xamarin Studio hasn’t got. I had been using Visual Studio 11 by the time I had written this post so maybe there was some problem with it.&lt;/p&gt;
 &lt;p&gt;From now on, I would recommend Visual Studio 12 and Android Studio.&lt;/p&gt;
 </description>

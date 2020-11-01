@@ -193,20 +193,20 @@
 
     <div class="py-5">
       <p>It has been a while since <a href="https://fmendes6.com/posts/14-04-10_xamarin/">my last blog post</a> about Xamarin and I feel this is the time to write something more about it. Although I haven’t been working with Xamarin for some months, I will write here some questions people often asked me when I was full-time working with it:</p>
-<h2 id="have-you-used-any-java-library-directly-how-easy-is-it-to-use-them">Have you used any java library directly? How easy is it to use them</h2>
+<h4 id="have-you-used-any-java-library-directly-how-easy-is-it-to-use-them">Have you used any java library directly? How easy is it to use them</h4>
 <p>First of all, let me say that Xamarin itself created a github account with many samples some of which have Android API wrappers for C# of popular java libraries (ex: ActionBarSherlock) which is worth checking out.</p>
 <p>One of the requirements I had concerning the project was its feature of uploading files from the device to the server and I knew it wouldn’t be easy especially due to the Documents API introduced in Android 4.4.</p>
 <p>I decided to implement it using the <a href="https://github.com/iPaulPro/aFileChooser">aFileChooser</a> library which could solve this problem with ease. However, there was no port available as a Xamarin component, so I had to implement the wrapper myself following the <a href="http://developer.xamarin.com/guides/android/advanced_topics/java_integration_overview/binding_a_java_library_%28.jar%29/">Xamarin Tutorials</a>.</p>
 <p>The process is allegedly automatic and straightforward although we may need to describe some transformations in XML files due to the differences between both languages (Java and C#). As far as I remember, in the whole library I had to describe only two transformations regarding C#’s lack of covariance in method return types.</p>
 <p>It was a bit messy in the beginning but it turned out to be easier than what it could actually be. Mostly thanks to the help of the Xamarin community with many similar examples available online. The whole forum works really well and there are many people with a deep knowledge of the platform ready to help anyone.</p>
-<h2 id="what-about-libraries-do-you-usually-use-them">What about libraries? Do you usually use them</h2>
+<h4 id="what-about-libraries-do-you-usually-use-them">What about libraries? Do you usually use them</h4>
 <p>Of course! The Xamarin website provides developers with a lot of small libraries (assemblies) available to download and ready to use. Check them out <a href="http://components.xamarin.com/">here</a>!</p>
-<h2 id="any-other-obstacles-you-have-had-so-far">Any other obstacles you have had so far</h2>
+<h4 id="any-other-obstacles-you-have-had-so-far">Any other obstacles you have had so far</h4>
 <p>I don’t want to go into details here, but there where some problems while adding some external libraries (as well as with web services). I had to add some configurations to the linker options to avoid crashes in release mode. It is a fairly simple process once you know it but it is something I would had preferred not to go through.</p>
 <p>However, if you only need to make a simple aplication that communicates with a REST API and stores some data persistently, you can simply use RestSharp together with SQLite.NET (or other reliable alternatives) and you won’t have to go through any of these I mentioned before. It really depends on what type of features and libraries you need to use, so there is no need for panic.</p>
 <p>Keep in mind that not all frameworks and projects that are available in C# (outside of the Xamarin platform) can be used in a Xamarin.Android project so I recommend you to check its compability first here: <a href="http://scan.xamarin.com/">http://scan.xamarin.com/</a></p>
-<p>## If you could choose, which language would you chose for development?
-It is not an easy decision but once you start “Squarifying” your apps (I mean, using Square’s open source libraries) it’s hard to go back even though C# looks less verbose and sometimes is easier to develop on.</p>
+<h4 id="if-you-could-choose-which-language-would-you-chose-for-development">If you could choose, which language would you chose for development?</h4>
+<p>It is not an easy decision but once you start “Squarifying” your apps (I mean, using Square’s open source libraries) it’s hard to go back even though C# looks less verbose and sometimes is easier to develop on.</p>
 <p>Although it depends on the restrictions of the app (enterprise or personal), keep in mind that Xamarin is paid, which is a big con for indie developers.</p>
 <p>The whole Android ecossystem evolves much faster in Java, and Xamarin has been catching it surprisingly fast but I am afraid that a great amount of community libraries that are being released now in Java may never see the daylight in Xamarin.</p>
 <p>As a final note, I have to say that some of Xamarin updates can be troublesome with Visual Studio. What is more, I experienced several freezes while loading the project on startup, which is something that frustrated me a lot.</p>
